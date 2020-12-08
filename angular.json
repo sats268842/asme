@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "asme"
+    }
+  },
+  "defaultProject": "asme",
+  "cli": {
+    "analytics": "b7dda11a-0f63-4d93-abdf-c2ee153cc2c6"
+  }
 }
