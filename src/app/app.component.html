@@ -55,38 +55,38 @@
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column">
-    <h1 class="title has-text-weight-bold" style="font-size: 5rem;"><strong>Event On
+    <h1 class="title has-text-weight-bold has-text-centered-mobile" style="font-size: 5rem;"><strong>Event On
        </strong></h1>
-    <h2 class="subtitle is-size-4">
+    <h2 class="subtitle is-size-4 has-text-centered-mobile">
       March 25, 2021
     </h2>
   </div>
 
 
    <div class="column">
-  <nav class="level">
+  <nav class="level is-mobile">
     <div class="level-item has-text-centered">
       <div>
         <p class="heading is-size-6">Days</p>
-        <p class="title is-size-1">{{diffInDays}}</p>
+        <p class="title is-size-1 is-size-2-mobile">{{diffInDays}}</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
         <p class="heading is-size-6">Hours</p>
-        <p class="title is-size-1">{{hour}}</p>
+        <p class="title is-size-1 is-size-2-mobile">{{hour}}</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
         <p class="heading is-size-6">Minutes</p>
-        <p class="title is-size-1">{{minutes}}</p>
+        <p class="title is-size-1 is-size-2-mobile">{{minutes}}</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
         <p class="heading is-size-6">Seconds</p>
-        <p class="title is-size-1">{{seconds}}</p>
+        <p class="title is-size-1 is-size-2-mobile">{{seconds}}</p>
       </div>
     </div>
   </nav>
@@ -148,8 +148,10 @@
 <section class="section pb-6 pt-6">
   <div class="container">
     <div class="columns is-vcentered is-centered">
-      <div class="column is-centered is-one-third">
-        <img src="../assets/hero3.png" class="image" width="300px" height="300px">
+      <div class="column is-one-third">
+        <figure class="image is-horizontal-center">
+        <img src="../assets/hero3.png"  width="300px" height="300px">
+      </figure>
       <h1 class="title  is-size-1 has-text-centered">Program Schedule</h1>
       <p class="subtitle is-size-6 has-text-centered  has-text-weight-light">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
   </div>
@@ -161,6 +163,7 @@
           <mat-icon class="example-tab-icon">event</mat-icon>
           Day 1
         </ng-template>
+
         <div class="card event">
 
           <div class="card-content">
@@ -172,36 +175,23 @@
               </div>
               <div class="">
                 <p class="subtitle is-6">08:00AM - 10:00AM</p>
-                <p class="title is-3 has-text-link">Introduction to Wordpress 5.0</p>
-                <p class="subtitle is-5 has-text-danger">- Brett Morgan</p>
+                <p class="title is-3 has-text-link is-size-5-mobile">Introduction to Wordpress 5.0</p>
+                <p class="subtitle is-5 is-size-6-mobile has-text-danger">- Brett Morgan</p>
               </div>
-              <div class="media-right"  style="margin: auto;float: right;">
-                <button class="button is-danger is-rounded is-fullwidth">Register</button>
+              <div class="media-right is-hidden-touch"  style="float: right; margin: auto;">
+                <button class="button is-danger is-rounded ">Register</button>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="card event">
 
-          <div class="card-content">
-            <div class="media">
-              <div class="media-left">
-                <figure class="image is-96x96">
-                  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-                </figure>
-              </div>
-              <div class="">
-                <p class="subtitle is-6">08:00AM - 10:00AM</p>
-                <p class="title is-3 has-text-link">Introduction to Wordpress 5.0</p>
-                <p class="subtitle is-5 has-text-danger">- Brett Morgan</p>
-              </div>
-              <div class="media-right"  style="margin: auto;float: right;">
-                <button class="button is-danger is-rounded is-fullwidth">Register</button>
-              </div>
             </div>
+
+           <div class="media-right is-hidden-desktop"  style="margin: auto; float: right;">
+                <button class="button is-danger is-rounded ">Register</button>
+              </div>
           </div>
+
         </div>
 
+
         <div class="card event">
 
           <div class="card-content">
@@ -213,14 +203,47 @@
               </div>
               <div class="">
                 <p class="subtitle is-6">08:00AM - 10:00AM</p>
-                <p class="title is-3 has-text-link">Introduction to Wordpress 5.0</p>
-                <p class="subtitle is-5 has-text-danger">- Brett Morgan</p>
+                <p class="title is-3 has-text-link is-size-5-mobile">Introduction to Wordpress 5.0</p>
+                <p class="subtitle is-5 is-size-6-mobile has-text-danger">- Brett Morgan</p>
               </div>
-              <div class="media-right"  style="margin: auto;float: right;">
-                <button class="button is-danger is-rounded is-fullwidth">Register</button>
+              <div class="media-right is-hidden-touch"  style="float: right; margin: auto;">
+                <button class="button is-danger is-rounded ">Register</button>
               </div>
+
             </div>
+
+           <div class="media-right is-hidden-desktop"  style="margin: auto; float: right;">
+                <button class="button is-danger is-rounded ">Register</button>
+              </div>
           </div>
+
+        </div>
+
+         <div class="card event">
+
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-96x96">
+                  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+              </div>
+              <div class="">
+                <p class="subtitle is-6">08:00AM - 10:00AM</p>
+                <p class="title is-3 has-text-link is-size-5-mobile">Introduction to Wordpress 5.0</p>
+                <p class="subtitle is-5 is-size-6-mobile has-text-danger">- Brett Morgan</p>
+              </div>
+              <div class="media-right is-hidden-touch"  style="float: right; margin: auto;">
+                <button class="button is-danger is-rounded ">Register</button>
+              </div>
+
+            </div>
+
+           <div class="media-right is-hidden-desktop"  style="margin: auto; float: right;">
+                <button class="button is-danger is-rounded ">Register</button>
+              </div>
+          </div>
+
         </div>
       </mat-tab>
 
