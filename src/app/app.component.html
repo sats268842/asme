@@ -55,10 +55,10 @@
   <div class="container">
     <div class="columns is-vcentered">
       <div class="column">
-    <h1 class="title has-text-weight-bold" style="font-size: 5rem;"><strong>Next Event
+    <h1 class="title has-text-weight-bold" style="font-size: 5rem;"><strong>Event On
        </strong></h1>
-    <h2 class="subtitle is-size-3">
-      August 25, 2019
+    <h2 class="subtitle is-size-4">
+      March 25, 2021
     </h2>
   </div>
 
@@ -68,25 +68,25 @@
     <div class="level-item has-text-centered">
       <div>
         <p class="heading is-size-6">Days</p>
-        <p class="title is-size-1">35</p>
+        <p class="title is-size-1">{{diffInDays}}</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
         <p class="heading is-size-6">Hours</p>
-        <p class="title is-size-1">12</p>
+        <p class="title is-size-1">{{hour}}</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
         <p class="heading is-size-6">Minutes</p>
-        <p class="title is-size-1">45</p>
+        <p class="title is-size-1">{{minutes}}</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
         <p class="heading is-size-6">Seconds</p>
-        <p class="title is-size-1">20</p>
+        <p class="title is-size-1">{{seconds}}</p>
       </div>
     </div>
   </nav>
@@ -145,51 +145,199 @@
 
 
 
-<section class="section is-large pt-6">
+<section class="section pb-6 pt-6">
   <div class="container">
-    <div class="columns is-centered">
-      <div class="column ">
-      <h1 class="title  is-size-1">Program Schedule</h1>
-
-
+    <div class="columns is-vcentered is-centered">
+      <div class="column is-centered is-one-third">
+        <img src="../assets/hero3.png" class="image" width="300px" height="300px">
+      <h1 class="title  is-size-1 has-text-centered">Program Schedule</h1>
+      <p class="subtitle is-size-6 has-text-centered  has-text-weight-light">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
   </div>
 
   <div class="column">
-    <div class="tabs is-toggle is-toggle-rounded">
-      <ul>
-        <li class="is-active">
-          <a>
-            <span class="icon is-small"><i class="fas fa-image"></i></span>
-            <span>Day1</span>
-          </a>
-        </li>
-        <li>
-          <a>
-            <span class="icon is-small"><i class="fas fa-music"></i></span>
-            <span>Day2</span>
-          </a>
-        </li>
-        <li>
-          <a>
-            <span class="icon is-small"><i class="fas fa-film"></i></span>
-            <span>Day3</span>
-          </a>
-        </li>
-        <li>
-          <a>
-            <span class="icon is-small"><i class="fas fa-file-alt"></i></span>
-            <span>Day4</span>
-          </a>
-        </li>
-      </ul>
+    <mat-tab-group>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">event</mat-icon>
+          Day 1
+        </ng-template>
+        <div class="card event">
+
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-96x96">
+                  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+              </div>
+              <div class="">
+                <p class="subtitle is-6">08:00AM - 10:00AM</p>
+                <p class="title is-3 has-text-link">Introduction to Wordpress 5.0</p>
+                <p class="subtitle is-5 has-text-danger">- Brett Morgan</p>
+              </div>
+              <div class="media-right"  style="margin: auto;float: right;">
+                <button class="button is-danger is-rounded is-fullwidth">Register</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card event">
+
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-96x96">
+                  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+              </div>
+              <div class="">
+                <p class="subtitle is-6">08:00AM - 10:00AM</p>
+                <p class="title is-3 has-text-link">Introduction to Wordpress 5.0</p>
+                <p class="subtitle is-5 has-text-danger">- Brett Morgan</p>
+              </div>
+              <div class="media-right"  style="margin: auto;float: right;">
+                <button class="button is-danger is-rounded is-fullwidth">Register</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card event">
+
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-96x96">
+                  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+              </div>
+              <div class="">
+                <p class="subtitle is-6">08:00AM - 10:00AM</p>
+                <p class="title is-3 has-text-link">Introduction to Wordpress 5.0</p>
+                <p class="subtitle is-5 has-text-danger">- Brett Morgan</p>
+              </div>
+              <div class="media-right"  style="margin: auto;float: right;">
+                <button class="button is-danger is-rounded is-fullwidth">Register</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">event</mat-icon>
+          Day2
+        </ng-template>
+       dfff
+      </mat-tab>
+
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="example-tab-icon">event</mat-icon>
+          Day 3
+        </ng-template>
+
+        Content 3
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>
+</div>
+</section>
+
+
+
+  <section class="section mt-6 mb-6 ">
+    <div class="columns is-vcentered">
+      <div class="column">
+<div class="swiper-container">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <figure class="image">
+          <img class="" src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2009&q=80">
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure class="image">
+          <img class="" src="https://images.unsplash.com/photo-1514777025242-d80bae53d4d6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80">
+        </figure>
+      </div>
+      <div class="swiper-slide">
+        <figure class="image">
+          <img class="" src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2009&q=80">
+        </figure>
+      </div>
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+</div>
+
+<div class="column">
+
+  <div class="card event">
+
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <i class="fas fa-map-marked-alt"></i>
+        </div>
+        <div class="">
+          <p class="subtitle is-6">Address</p>
+          <p class="title is-5 has-text-link">198 West 21th Street, Suite 721 New York NY 10016</p>
+          <!-- <p class="subtitle is-5 has-text-danger">- Brett Morgan</p> -->
+        </div>
+      </div>
     </div>
   </div>
 
-</div>
+  <div class="card event">
+
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <i class="fas fa-address-book"></i>
+        </div>
+        <div class="">
+          <p class="subtitle is-6">Contact Number</p>
+          <p class="title is-5 has-text-link">+ 1235 2355 98</p>
+          <!-- <p class="subtitle is-5 has-text-danger">- Brett Morgan</p> -->
+        </div>
+      </div>
+    </div>
   </div>
 
-</section>
+  <div class="card event">
 
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <i class="fas fa-paper-plane"></i>
+        </div>
+        <div class="">
+          <p class="subtitle is-6">Email Address</p>
+          <p class="title is-5 has-text-link">info@yoursite.com</p>
+          <!-- <p class="subtitle is-5 has-text-danger">- Brett Morgan</p> -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
 
 <footer class="footer">
   <div class="content has-text-centered">
