@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import Swiper from 'swiper/bundle';
+import SwiperCore from "swiper/core";
 
 declare var anime: any;
 @Component({
@@ -24,73 +25,13 @@ export class AppComponent implements AfterViewInit, OnInit {
   m = 0;
   s = 0;
   ngOnInit() {
-    this.getTime();
+    this.timecount();
   }
-  getTime() {
-    this.date1 = new Date();
-    this.date2 = new Date('03/30/2021');
-
-    // To calculate the time difference of two dates
-     this.Difference_In_Time = this.date2.getTime() - this.date1.getTime();
-
-    // To calculate the no. of days between two dates
-    //  this.diffInDays = Math.ceil(Difference_In_Time / (1000 * 3600 * 24));
-    //  this.hour = Math.floor(Difference_In_Time % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
-    //  this.minutes= Math.floor(Difference_In_Time % (1000 * 60 * 60) / (1000 * 60));
-    //  this.seconds= Math.floor(Difference_In_Time % (1000 * 60) / 1000);
-
-    let refreshIntervalId = setInterval(() => {
-
-      if(this.diffInDays !== Math.ceil(this.Difference_In_Time / (1000 * 3600 * 24)))
-
-      {
-
-        if (this.i < Math.ceil(this.Difference_In_Time / (1000 * 3600 * 24))) {
-          this.diffInDays = this.diffInDays + 1;
-          this.i = this.i + 1;
-        }
-
-        if (
-          this.h <=
-          Math.floor(
-            (this.Difference_In_Time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-          )
-        ) {
-          this.hour = this.hour + 1;
-          this.h = this.h + 1;
-        }
-
-        if (
-          this.m <=
-          Math.floor((this.Difference_In_Time % (1000 * 60 * 60)) / (1000 * 60))
-        ) {
-          this.minutes = this.minutes + 1;
-          this.m = this.m + 1;
-        }
-        if (this.s <= Math.floor((this.Difference_In_Time % (1000 * 60)) / 1000)) {
-          this.seconds = this.seconds + 1;
-          this.s = this.s + 1;
-        }
-      }
-
-
-      else{
-        console.log('exited')
-        this.timecount();
-        clearInterval(refreshIntervalId);
-      }
-        }, 80);
-
-    //  this.diffInDays = Math.ceil(Difference_In_Time / (1000 * 3600 * 24));
-    //  this.hour = Math.floor(Difference_In_Time % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
-    //  this.minutes= Math.floor(Difference_In_Time % (1000 * 60 * 60) / (1000 * 60));
-    //  this.seconds= Math.floor(Difference_In_Time % (1000 * 60) / 1000);
-
-
-  }
-
   timecount(){
+
     setInterval(() => {
+      this.date1 = new Date();
+      this.date2 = new Date('03/30/2021');
       this.Difference_In_Time = this.date2.getTime() - this.date1.getTime();
       console.log('count')
       this.diffInDays = Math.ceil(this.Difference_In_Time / (1000 * 3600 * 24));
@@ -106,25 +47,20 @@ export class AppComponent implements AfterViewInit, OnInit {
   }
 
   ngAfterViewInit(): void {
-    var mySwiper = new Swiper('.swiper-container', {
-      // Optional parameters
-      direction: 'vertical',
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      slidesPerGroup: 4,
       loop: true,
-
-      // If we need pagination
+      lazy: true,
+      loopFillGroupWithBlank: true,
       pagination: {
         el: '.swiper-pagination',
+        clickable: true,
       },
-
-      // Navigation arrows
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-      },
-
-      // And if we need scrollbar
-      scrollbar: {
-        el: '.swiper-scrollbar',
       },
     });
 
