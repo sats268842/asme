@@ -10,7 +10,7 @@ import {MatIconModule} from '@angular/material/icon';
 
 // import { SwiperModule } from 'angular/src/public-api';
 // import { SwiperModule } from '../../node_modules/swiper/angular/angular/src/public-api;
-
+import {NgsRevealModule} from 'ngx-scrollreveal';
 @NgModule({
   declarations: [
     AppComponent
@@ -20,7 +20,8 @@ import {MatIconModule} from '@angular/material/icon';
     AppRoutingModule,
     MatTabsModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    NgsRevealModule
   ],
   providers: [],
   bootstrap: [AppComponent]

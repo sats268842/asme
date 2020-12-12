@@ -12,10 +12,10 @@ export class AppComponent implements AfterViewInit, OnInit {
   title = 'asme';
   firstDate;
   secondDate;
-  diffInDays: number = 0;
-  hour: number = 0;
-  minutes = 0;
-  seconds = 0;
+  diffInDays: number;
+  hour: number;
+  minutes;
+  seconds;
   Difference_In_Time=0;
   date1;
   date2;
