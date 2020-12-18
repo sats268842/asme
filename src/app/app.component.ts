@@ -1,6 +1,9 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
 import Swiper from 'swiper/bundle';
 import SwiperCore from "swiper/core";
+
+
+import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 
 declare var anime: any;
 @Component({
@@ -24,8 +27,16 @@ export class AppComponent implements AfterViewInit, OnInit {
   h = 0;
   m = 0;
   s = 0;
+
+
+
+  constructor( private breakpointObserver: BreakpointObserver) {
+
+   }
+   @HostListener("window:resize", [])
   ngOnInit() {
     this.timecount();
+
   }
   timecount(){
 
@@ -47,23 +58,46 @@ export class AppComponent implements AfterViewInit, OnInit {
   }
 
   ngAfterViewInit(): void {
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 4,
-      spaceBetween: 30,
-      slidesPerGroup: 4,
-      loop: true,
-      lazy: true,
-      loopFillGroupWithBlank: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
 
+    this.breakpointObserver.observe([
+      '(max-width: 768px)'
+        ]).subscribe(result => {
+          if (result.matches) {
+            let mySwiper = new Swiper('.swiper-container',{
+              slidesPerView: 2,
+              spaceBetween: 30,
+              slidesPerGroup: 2,
+              lazy: true,
+              loop: true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          }
+          else {
+            let mySwiper = new Swiper('.swiper-container',{
+              // centeredSlides: true,
+              slidesPerView: 4,
+              spaceBetween: 30,
+              slidesPerGroup: 4,
+              lazy: true,
+              loop: true,
+              pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          }
+        });
     // Wrap every letter in a span
     var textWrapper = document.querySelector('.ml11 .letters');
     textWrapper.innerHTML = textWrapper.textContent.replace(
