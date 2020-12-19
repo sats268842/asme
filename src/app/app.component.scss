@@ -9,6 +9,8 @@
 .hero1{
 
   background: rgba(52,35,166,1)  url('../assets/bg6.png') no-repeat ;
+  overflow-x: hidden;
+  overflow-y: hidden;
   // background-image: 0 90%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +21,7 @@
   margin: 20px;
   box-shadow:  20px 20px 60px #d9d9d9,
              -20px -20px 60px #ffffff;
-  overflow-x: hidden;
+
 }
 
 .event-date{
