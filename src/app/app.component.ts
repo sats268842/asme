@@ -64,37 +64,39 @@ export class AppComponent implements AfterViewInit, OnInit {
         ]).subscribe(result => {
           if (result.matches) {
             let mySwiper = new Swiper('.swiper-container',{
-              slidesPerView: 2,
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+              slidesPerView: 1,
               spaceBetween: 30,
-              slidesPerGroup: 2,
+              slidesPerGroup: 1,
               lazy: true,
               loop: true,
               pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
               },
-              navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-              },
+
             });
           }
           else {
             let mySwiper = new Swiper('.swiper-container',{
               // centeredSlides: true,
-              slidesPerView: 4,
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+              slidesPerView: 1,
               spaceBetween: 30,
-              slidesPerGroup: 4,
+              slidesPerGroup: 1,
               lazy: true,
               loop: true,
               pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
               },
-              navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-              },
+
             });
           }
         });
