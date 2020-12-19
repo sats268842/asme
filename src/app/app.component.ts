@@ -2,7 +2,7 @@ import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
 import Swiper from 'swiper/bundle';
 import SwiperCore from "swiper/core";
 
-
+import * as AOS from 'aos';
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 
 declare var anime: any;
@@ -36,6 +36,7 @@ export class AppComponent implements AfterViewInit, OnInit {
    @HostListener("window:resize", [])
   ngOnInit() {
     this.timecount();
+    AOS.init();
 
   }
   timecount(){

@@ -21,6 +21,7 @@
     "@angular/platform-browser": "~10.0.14",
     "@angular/platform-browser-dynamic": "~10.0.14",
     "@angular/router": "~10.0.14",
+    "aos": "^2.3.4",
     "bulma": "^0.9.1",
     "ngx-scrollreveal": "^3.0.0",
     "rxjs": "~6.5.5",
