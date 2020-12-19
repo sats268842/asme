@@ -2,5 +2,6 @@
 @import '../src/main-style.scss';
 @import '../node_modules/bulma/bulma.sass';
 @import 'swiper/swiper-bundle.css';
-html, body { height: 100%; }
+html, body { height: 100%;
+  overflow-x: hidden; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
