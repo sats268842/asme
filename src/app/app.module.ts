@@ -12,10 +12,14 @@ import {MatIconModule} from '@angular/material/icon';
 // import { SwiperModule } from '../../node_modules/swiper/angular/angular/src/public-api;
 import {NgsRevealModule} from 'ngx-scrollreveal';
 import {MatChipsModule} from '@angular/material/chips';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { HeroComponent } from './features/hero/hero.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,

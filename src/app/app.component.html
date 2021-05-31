@@ -1,55 +1,5 @@
-<section class="hero is-white is-fullheight">
-  <!-- Hero head: will stick at the top -->
-  <div class="hero-head">
-
-  </div>
-
-  <!-- Hero content: will be in the middle -->
-  <div class="hero-body hero1">
-    <div class="container">
-      <div class="columns is-center is-vcentered">
-        <div class="column">
-          <h1 class="ml11">
-            <span class="text-wrapper">
-              <span class="line line1"></span>
-              <span class="letters">Digital Conference<br> For Designers</span>
-            </span>
-          </h1>
-          <div class="columns dateinformation">
-          <div class="column">
-
-          </div>
-          <div class="column">
-
-          </div>
-        </div>
-        </div>
-
-        <div class="column">
-          <img src="https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1608359732/asme/hero_dkpsbf.png" class="image rotate-scale-up" width="500px" height="500px">
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- Hero footer: will stick at the bottom -->
-  <!-- <div class="hero-foot">
-    <nav class="tabs is-boxed is-fullwidth">
-      <div class="container">
-        <ul>
-          <li class="is-active"><a>Overview</a></li>
-          <li><a>Modifiers</a></li>
-          <li><a>Grid</a></li>
-          <li><a>Elements</a></li>
-          <li><a>Components</a></li>
-          <li><a>Layout</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div> -->
-</section>
-
+<app-navbar></app-navbar>
+<app-hero></app-hero>
 
 <section class="section mt-6 mb-6 event-date " >
   <div class="container">
@@ -67,26 +17,30 @@
   <nav class="level is-mobile">
     <div class="level-item has-text-centered">
       <div>
-        <p class="heading is-size-6">Days</p>
+      
         <p class="title is-size-1 is-size-2-mobile ">{{diffInDays}}</p>
+        <p class="heading is-size-6">Days</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
-        <p class="heading is-size-6">Hours</p>
+       
         <p class="title is-size-1 is-size-2-mobile ">{{hour}}</p>
+        <p class="heading is-size-6">Hours</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
-        <p class="heading is-size-6">Minutes</p>
+        
         <p class="title is-size-1 is-size-2-mobile ">{{minutes}}</p>
+        <p class="heading is-size-6">Minutes</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
-        <p class="heading is-size-6">Seconds</p>
+       
         <p class="title is-size-1 is-size-2-mobile ">{{seconds}}</p>
+        <p class="heading is-size-6">Seconds</p>
       </div>
     </div>
   </nav>
@@ -104,50 +58,64 @@
   <div class="container">
     <div class="columns is-centered mb-6">
       <div class="column " >
-    <h1 class="title is-size-1">Keynote Speakers</h1>
-    <p class=" is-size-6 has-text-weight-light">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    <h1 class="title is-size-1">Speakers</h1>
+    <p class=" is-size-6 has-text-weight-light">Far far away</p>
     </div>
   </div>
   </div>
-  <div class="swiper-container" data-aos="zoom-in-right">
+  <div class="speakers">
+ 
 
-    <div class="swiper-wrapper">
-
-      <div class="swiper-slide">
-          <div class="columns  is-centered is-vcentered">
-
-
-            <div class="column">
-             <img src="https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1608359719/asme/IMG_7439.JPG_ealrtt.jpg" class="image ">
-            </div>
-
-            <div class="column is-two-fifths keynote-speaker-detail">
-              <div class="p-6">
-
-
-              <div class="keynote-speaker">
-                <div class="has-text-center is-size-1  is-size-5-mobile has-text-weight-bold has-text-link">Santhosh Thomas</div>
-                <div class="has-text-center  is-size-6 has-text-weight-medium">Product Designer</div><br><br><br>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-              </div>
-            </div>
-            </div>
-
-          </div>
-
+    
+    
+    <div class="speaker">
+      <div class="speaker-img">
+       
+        <img src="../assets/image.jpg" alt="">
+        <div class="text-block">
+          <h3 class="speaker-name">Harold May</h3>
+          <p class="speaker-designation">Product Designer</p>
+        </div>
+       
       </div>
-
-
-
-
+   
     </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-
-
+    <div class="speaker">
+      <div class="speaker-img">
+       
+        <img src="../assets/image.jpg" alt="">
+        <div class="text-block">
+          <h3 class="speaker-name">Harold May</h3>
+          <p class="speaker-designation">Product Designer</p>
+        </div>
+       
+      </div>
+   
+    </div>
+    <div class="speaker">
+      <div class="speaker-img">
+       
+        <img src="../assets/image.jpg" alt="">
+        <div class="text-block">
+          <h3 class="speaker-name">Harold May</h3>
+          <p class="speaker-designation">Product Designer</p>
+        </div>
+       
+      </div>
+   
+    </div>
+    <div class="speaker">
+      <div class="speaker-img">
+       
+        <img src="../assets/image.jpg" alt="">
+        <div class="text-block">
+          <h3 class="speaker-name">Harold May</h3>
+          <p class="speaker-designation">Product Designer</p>
+        </div>
+       
+      </div>
+   
+    </div>
   </div>
 </section>
 
@@ -155,7 +123,7 @@
 
 
 
-<section class="section is-large has-background-danger mt-6 event-count" >
+<section class="section is-large mt-6 event-count" >
   <div class="container">
     <div class="columns is-vcentered">
 
@@ -166,21 +134,21 @@
       <div>
 
         <p class="title is-size-1 is-size-4-mobile has-text-white ">{{diffInDays}}+</p>
-        <p class=" is-size-3 is-size-6-mobile">Speakers</p>
+        <p class=" is-size-6 is-size-6-mobile">Speakers</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
 
         <p class="title is-size-1 is-size-4-mobile  has-text-white">{{hour}}+</p>
-        <p class="is-size-3 is-size-6-mobile">Sponsors</p>
+        <p class="is-size-6 is-size-6-mobile">Sponsors</p>
       </div>
     </div>
     <div class="level-item has-text-centered">
       <div>
 
         <p class="title is-size-1 is-size-4-mobile  has-text-white">{{minutes}}+</p>
-        <p class="is-size-3 is-size-6-mobile">Workshops </p>
+        <p class="is-size-6 is-size-6-mobile">Workshops </p>
       </div>
     </div>
     <!-- <div class="level-item has-text-centered">
@@ -201,10 +169,10 @@
     <div class="columns is-vcentered is-centered">
       <div class="column is-one-third">
         <figure class="image is-horizontal-center">
-        <img class="shake-slow" src="../assets/hero3.png"  width="300px" height="300px">
+        <img class="shake-slow" src="../assets/23.png"  width="300px" height="300px">
       </figure>
       <h1 class="title  is-size-1 has-text-centered">Program Schedule</h1>
-      <p class="subtitle is-size-6 has-text-centered  has-text-weight-light">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+      <p class="subtitle is-size-6 has-text-centered  has-text-weight-light">Far far away</p>
   </div>
 
   <div class="column" [ngsRevealSet]="{ reset:true}" [ngsInterval]="450" [ngsSelector]="'.event'">
