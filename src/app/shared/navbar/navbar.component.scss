@@ -18,8 +18,8 @@
 
   padding: 1.5rem 6rem;
   &-logo {
-    color: white;
-    font-weight: 700;
+    width: 120px;  
+    filter:  brightness(0) invert(1) drop-shadow(1px 1px 1px rgb(78, 78, 78));
   }
   &-items {
     width: 60%;
@@ -56,6 +56,10 @@
   padding: 1rem 2rem;
 
   .navbar {
+    &-logo {
+      width: 100px;  
+      filter:  brightness(1) invert(0);
+    }
     &-items {
       li {
         cursor: pointer;
