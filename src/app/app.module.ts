@@ -14,12 +14,16 @@ import {NgsRevealModule} from 'ngx-scrollreveal';
 import {MatChipsModule} from '@angular/material/chips';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { HeroComponent } from './features/hero/hero.component';
+import { SpeakersComponent } from './features/speakers/speakers.component';
+import { ProgramScheduleComponent } from './features/program-schedule/program-schedule.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HeroComponent
+    HeroComponent,
+    SpeakersComponent,
+    ProgramScheduleComponent
   ],
   imports: [
     BrowserModule,
