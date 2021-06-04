@@ -158,6 +158,17 @@ to {background-size: 105% 105%;}
     background: $primary url('../../../assets/bgmob.png') no-repeat ;
     border-radius: 0;
     margin: 0 !important;
+    .text-container{
+      margin-top: 4rem;
+      text-align: center;
+      .title{
+        font-size: 3rem;
+      }
+      .subtitle{
+        font-size: 1rem;
+      }
+    }
+   
   }
   .swiper-container {
     height: 600px;
