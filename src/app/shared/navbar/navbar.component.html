@@ -1,6 +1,7 @@
 <nav
   class="navbar"
   [ngClass]="{ 'sticky': isSticky,'navbar-mob': toggle }"
+  [ngStyle]="{'flex-direction': toggle ? 'column' : 'row' }"
 
  
  
