@@ -153,7 +153,9 @@ to {background-size: 105% 105%;}
 }
 
 @media only screen and (max-width: 600px) {
+  
   .hero1 {
+    background: $primary url('../../../assets/bgmob.png') no-repeat ;
     border-radius: 0;
     margin: 0 !important;
   }
