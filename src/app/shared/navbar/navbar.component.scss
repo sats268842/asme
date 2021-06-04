@@ -112,16 +112,20 @@
       flex-direction: column;
       // align-items: stretch;
       li {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        font-weight: 400;
         color: white !important;
+      }
+      &-button {
+        align-items: center;
+        // padding: 1rem 2rem !important;
+        font-size: 1.2rem;
       }
     }
     &-logo {
       display: none;
     }
-    &-button {
-      align-items: center;
-    }
+    
   }
 }
 

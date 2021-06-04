@@ -1,4 +1,5 @@
 
+@import '../../../main-style.scss';
 .program-schedule{
     .hero-image{
       display: flex;
@@ -10,3 +11,114 @@
     }
   
   }
+::ng-deep{
+    .mat-tab-body-content{
+        overflow: hidden !important;
+        // margin: 3rem 0;
+    }
+}
+.columns{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.date-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ 
+ 
+.date{
+  margin: 2rem 2rem;
+  // margin-top: 1rem;
+  background: url('../../../assets/Visa\ Card\ 2\ \(Matt\ Black\).png');
+  background-size: cover;
+  // background: $primary;
+  // display: block;
+  width: 250px;
+  border-radius: 20px;
+  background-position:center;
+  height: 120px;
+  text-align: center;
+h1{
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+}
+}
+.cards{
+  margin-top: -8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  // flex-direction: column;
+  .lines{
+    margin-right:40px;
+    margin-top:6px;
+    
+    
+    .dot{
+      width:14px;
+      height:14px;
+      
+background: $primary;
+      border-radius:7px;
+      &::before{
+        content: '';
+      }
+    }
+    .line{
+      height:160px;
+      width:2px;
+      background: #D1D6E6;
+      margin-left:5.3px;
+    }
+  }
+  .timeline{
+.card{  
+          // border-radius: 0;
+        margin-top: 2rem;
+        width: 450px;
+        height: 150px;
+        // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        // background-color: $primary;
+        border-left: 3px dashed $secondary;
+        
+        &::before{
+         
+        }
+        .container{
+          padding: 1rem 1rem;
+          .time{
+            font-weight: 400;
+            color: rgb(99, 99, 99);
+          }
+          .title{
+            padding-top: 1rem;
+            span{
+              display: block;
+              font-size: 1rem;
+              font-weight: 400;
+            }
+          }
+        }
+}
+  }
+}
+ 
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .cards{
+    // flex-direction: column;
+    // justify-content: space-evenly;
+    .timeline{
+    .card{
+      width: 310px;
+      height: 150px;
+    }
+  }
+  }
+ 
+
+}
