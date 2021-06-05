@@ -3,15 +3,19 @@
     color: white;
     background: $primary;
     .logo{
+        
     img {
       height: 60px;
       width: auto;
       margin: auto;
       filter: brightness(0) invert(1);
+      transition: all 0.2s  ease-in;
+      
+      &:hover {
+        filter: brightness(1) invert(0);
+      }
     }
-    :hover {
-      filter: grayscale(0);
-    }
+ 
 }
   }
   

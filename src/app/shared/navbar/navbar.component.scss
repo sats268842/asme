@@ -76,7 +76,7 @@
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .sticky {
-    background: $primary !important;
+    background: white !important;
   }
   .navbar {
     justify-content: left;
@@ -135,17 +135,20 @@
     padding: 0rem 0rem;
     opacity: 1;
     .navbar {
+      &-toggle {
+        background: $primary;
+      }
   
       &-logo{
         width: 80px !important; 
-        filter: brightness(0) invert(1) drop-shadow(1px 1px 1px #4e4e4e);
+        filter: brightness(1) invert(0) drop-shadow(1px 1px 1px #4e4e4e);
       }
     }
 }
 }
 
 .navbar-mob {
-  background: $primary;
+  background: white;
   animation-name: example;
   animation-duration: 2s;
   animation-fill-mode: forwards;

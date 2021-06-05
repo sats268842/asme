@@ -22,6 +22,9 @@ export class HeroComponent implements OnInit {
   m = 0;
   s = 0;
 
+
+  speakers=15
+
   constructor() { }
 
   ngOnInit(): void {

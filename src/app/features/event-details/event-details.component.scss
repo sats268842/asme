@@ -1,0 +1,60 @@
+@import '../../../main-style.scss';
+.event-details{
+    height: 35vh;
+    background: url('../../../assets/bg.png');
+    background-size: cover;
+    animation: background 5s linear infinite alternate;
+    animation-timing-function: ease-in-out;
+    background-repeat: no-repeat;
+    .event-container{
+        padding-top: 12rem;
+        text-align: center;
+        span {
+            background: #FF331F;
+            // opacity: 0.8;
+            color: white  ;
+            padding: 0.5rem 1rem;
+          }
+        h1{
+            color: white;
+            font-weight: 500;
+            font-size: 3rem;
+        }
+    }
+}
+
+@keyframes background {
+    from {
+    //   background-size: 50% 50%;
+    }
+    to {
+    //   background-size: 107% 107%;
+    }
+  }
+  
+
+
+  @media only screen and (max-width: 768px) {
+    .event-details{
+
+        background: url('../../../assets/bg.png');
+        
+        .event-container{
+            padding-top: 12rem;
+            text-align: center;
+            span {
+                background: #FF331F;
+                // opacity: 0.8;
+                color: white  ;
+                padding: 0.5rem 1rem;
+              }
+            h1{
+                color: white;
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    
+  
+  }

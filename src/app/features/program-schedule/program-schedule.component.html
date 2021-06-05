@@ -33,23 +33,17 @@
                 <div class="dot"></div>
               </div>
               <div class="timeline">
-                <div class="card">
+                <div class="card" *ngFor="let item of day1">
                   <div class="container">
-                    <h6 class="time">6.30 - 7.00 PM</h6>
-                    <h1 class="title">Inaugration Ceromony</h1>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="container">
-                    <h6 class="time">7.00 - 7.30 PM</h6>
-                    <h1 class="title">Vinay Menon - E-Talk</h1>
-                    <div class="button-register">
-                      <button>
+                    <h6 class="time">{{item.time}}</h6>
+                    <h1 class="title">{{item.title}}
+                      <span *ngIf="item.subtitle">{{item.subtitle}}</span>
+                    </h1>
+                    <div class="button-register" *ngIf="item.register">
+                      <button (click)="eventDetails(item)">
                       Register
                       </button>
                     </div>
-               
                   </div>
                 </div>
               </div>
@@ -80,54 +74,22 @@
                 <div class="dot"></div>
               </div>
               <div class="timeline">
-                <div class="card">
+                <div class="card" *ngFor="let item of day2">
                   <div class="container">
-                    <h6 class="time">9.00 AM</h6>
-                    <h1 class="title">Digital Holmes</h1>
-                    <div class="button-register">
-                      <button>
-                      Register
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="container">
-                    <h6 class="time">10:00AM - 12:00 PM</h6>
-                    <h1 class="title">
-                      G.O.A.T
-                      <span> Aptitude Test </span>
+                    <h6 class="time">{{item.time}}</h6>
+                    <h1 class="title">{{item.title}}
+                      <span *ngIf="item.subtitle">{{item.subtitle}}</span>
                     </h1>
-                    <div class="button-register">
-                      <button>
+                    <div class="button-register" *ngIf="item.register">
+                      <button (click)="eventDetails(item)">
                       Register
                       </button>
                     </div>
                   </div>
                 </div>
 
-                <div class="card">
-                  <div class="container">
-                    <h6 class="time">3:30 PM - 6:00 PM</h6>
-                    <h1 class="title">
-                      G.O.A.T
-                      <span> Extempore Round </span>
-                    </h1>
-                  </div>
-                </div>
+               
 
-                <div class="card">
-                  <div class="container">
-                    <h6 class="time">7:00 PM - 8:00 PM</h6>
-                    <h1 class="title">Bridge</h1>
-                    <div class="button-register">
-                      <button>
-                      Register
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -162,96 +124,18 @@
                 <div class="dot"></div>
               </div>
               <div class="timeline">
-                <div class="card">
+                <div class="card" *ngFor="let item of day3">
                   <div class="container">
-                    <h6 class="time">9.00 AM - 9.30 AM</h6>
-                    <h1 class="title">Talk session 1</h1>
-                    <div class="button-register">
-                      <button>
+                    <h6 class="time">{{item.time}}</h6>
+                    <h1 class="title">{{item.title}}</h1>
+                    <div class="button-register" *ngIf="item.register">
+                      <button  (click)="eventDetails(item)">
                       Register
                       </button>
                     </div>
                   </div>
                 </div>
 
-                <div class="card">
-                  <div class="container">
-                    <h6 class="time">9.00 AM - 9.30 AM</h6>
-                    <h1 class="title">Talk Session 2</h1>
-                    <div class="button-register">
-                      <button>
-                      Register
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="container">
-                    <h6 class="time">9.00 AM - 9.30 AM</h6>
-                    <h1 class="title">Networking Session</h1>
-                    <div class="button-register">
-                      <button>
-                      Register
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="container">
-                    <h6 class="time">10.00 AM - 12.00 PM</h6>
-                    <h1 class="title">
-                      G.O.A.T
-                      <span>Final Interview </span>
-                    </h1>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="container">
-                    <h6 class="time">10.00 AM - 12.00 PM</h6>
-                    <h1 class="title">
-                      Bazzinga
-                   
-                    </h1>
-                    <div class="button-register">
-                      <button>
-                      Register
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                
-
-                <div class="card">
-                  <div class="container">
-                    <h6 class="time">12.00 PM</h6>
-                    <h1 class="title">
-                      Digital Holmes
-                    </h1>
-                    <div class="button-register">
-                      <button>
-                      Register
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="card">
-                  <div class="container">
-                    <h6 class="time">4.00 PM - 6.00 PM</h6>
-                    <h1 class="title">
-                      Feliciataion
-                    </h1>
-                    <div class="button-register">
-                      <button>
-                      Register
-                      </button>
-                    </div>
-                  </div>
-                </div>
                 
                 
               </div>

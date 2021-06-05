@@ -60,15 +60,6 @@
 
 
 
-
-.event-date {
-  // background-image: 0 90%;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // color: white;
-  // background:url('https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1934&q=80') 0 50%;
-}
-
 .event-count {
   background: url("https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1608359752/asme/bg6_znniuj.png");
   background-repeat: no-repeat;
@@ -155,10 +146,7 @@
   margin-right: 8px;
 }
 
-.event {
-  padding: 20px 0;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
-}
+
 .swiper-container {
   width: 100%;
   // height: 100%;
@@ -193,74 +181,7 @@
 }
 
 
-.details {
-  background: url("https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1608359752/asme/bg6_znniuj.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0px 0px;
-  background-repeat: repeat-x;
-  animation: background 20s linear infinite alternate;
-}
 
-.speakers {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: wrap;
-  gap: 20px;
-  .speaker {
-    // flex: 1 0 33%;
-    flex: 50%;
-    &:nth-child(even) {
-      margin-top: 20rem;
-    }
-
-    &-img {
-      width: 300px;
-      height: 400px;
-
-      background-size: cover;
-      img {
-        width: 300px;
-        height: 400px;
-        object-fit: cover;
-
-        // border-radius: 50%;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-      }
-    }
-    .text-block {
-      display: inline-block;
-      width: 100%;
-
-      text-align: center;
-      bottom: 0px;
-      left: 0;
-      vertical-align: middle;
-      // background: white;
-      // opacity:0;
-      transition: all 0.3s ease-in;
-      padding: 1rem 0;
-
-      color: white;
-    }
-    &:hover {
-      .text-block {
-        opacity: 1;
-      }
-    }
-    &-name {
-      font-weight: 500;
-      font-size: 1.2rem;
-
-      color: black;
-    }
-    &-designation {
-      color: rgb(109, 108, 108);
-      font-weight: 400;
-    }
-  }
-}
 .event-count {
   color: white;
   background-image: radial-gradient(

@@ -1,0 +1,21 @@
+@import '../../../main-style.scss';
+.details {
+    background: url("https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1608359752/asme/bg6_znniuj.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    animation: background 20s linear infinite alternate;
+  }
+  .event {
+      color: black;
+    //   margin-top: -0.2rem;
+    padding: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 20px 20px 25px 5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  }
+  .title{
+    color: black;
+  }
+  i{
+      color: $secondary;
+  }

@@ -17,6 +17,8 @@ import { HeroComponent } from './features/hero/hero.component';
 import { SpeakersComponent } from './features/speakers/speakers.component';
 import { ProgramScheduleComponent } from './features/program-schedule/program-schedule.component';
 import { SponorsComponent } from './features/sponors/sponors.component';
+import { ContactComponent } from './features/contact/contact.component';
+import { EventDetailsComponent } from './features/event-details/event-details.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { SponorsComponent } from './features/sponors/sponors.component';
     HeroComponent,
     SpeakersComponent,
     ProgramScheduleComponent,
-    SponorsComponent
+    SponorsComponent,
+    ContactComponent,
+    EventDetailsComponent
   ],
   imports: [
     BrowserModule,
