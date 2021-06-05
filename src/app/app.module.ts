@@ -20,6 +20,7 @@ import { SponorsComponent } from './features/sponors/sponors.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { EventDetailsComponent } from './features/event-details/event-details.component';
 import { AboutComponent } from './features/about/about.component';
+import { EventsComponent } from './features/events/events.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AboutComponent } from './features/about/about.component';
     SponorsComponent,
     ContactComponent,
     EventDetailsComponent,
-    AboutComponent
+    AboutComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
