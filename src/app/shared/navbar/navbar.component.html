@@ -7,7 +7,8 @@
  
 >
   <div class="navbar-toggle">
-    <img (click)="menuToggle()" src="../../../assets/menu2.png" alt="" />
+    <img *ngIf="!isSticky" (click)="menuToggle()" src="../../../assets/menu2.png" alt="" />
+    <img *ngIf="isSticky" (click)="menuToggle()" src="../../../assets/menu.png" alt="" />
   </div>
   <div class="navbar-logo">
     <img  src="../../../assets/Yugmalatest.png" alt="" />
@@ -19,7 +20,7 @@
     <li class="item">Speakers</li>
     <li class="item">Sponsors</li>
     
-      <button class="navbar-items-button">Get Tickets</button>
+      <button class="navbar-items-button">Register Now</button>
     
   </ul>
 </nav>

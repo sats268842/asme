@@ -32,8 +32,8 @@
     align-items: center;
     justify-content: space-evenly;
     li {
-      // font-size: 1.1rem;
-      font-weight: 400;
+      font-size: 0.9rem;
+      font-weight: 500;
       color: rgb(255, 255, 255);
       &:hover {
         border-bottom: 3px solid $secondary;
@@ -56,7 +56,7 @@
   background: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 1rem 2rem;
-
+  opacity: 0.9;
   .navbar {
     &-logo {
       width: 100px;  
@@ -65,7 +65,7 @@
     &-items {
       li {
         cursor: pointer;
-        font-weight: 400;
+        font-weight: 500;
         color: #111111;
         list-style: none;
         // color: #3423a6;
@@ -76,7 +76,7 @@
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .sticky {
-    background: white !important;
+    // background: white !important;
   }
   .navbar {
     justify-content: left;
@@ -133,8 +133,9 @@
   .sticky {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 0rem 0rem;
-    opacity: 1;
+    opacity: 0.9;
     .navbar {
+      background: $primary;
       &-toggle {
         background: $primary;
       }
@@ -148,7 +149,7 @@
 }
 
 .navbar-mob {
-  background: white;
+  // background: white;
   animation-name: example;
   animation-duration: 2s;
   animation-fill-mode: forwards;
