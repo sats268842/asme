@@ -1,0 +1,17 @@
+@import '../../../main-style.scss';
+.sponsor {
+    color: white;
+    background: $primary;
+    .logo{
+    img {
+      height: 60px;
+      width: auto;
+      margin: auto;
+      filter: brightness(0) invert(1);
+    }
+    :hover {
+      filter: grayscale(0);
+    }
+}
+  }
+  

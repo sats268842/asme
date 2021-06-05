@@ -16,6 +16,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { HeroComponent } from './features/hero/hero.component';
 import { SpeakersComponent } from './features/speakers/speakers.component';
 import { ProgramScheduleComponent } from './features/program-schedule/program-schedule.component';
+import { SponorsComponent } from './features/sponors/sponors.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProgramScheduleComponent } from './features/program-schedule/program-sc
     NavbarComponent,
     HeroComponent,
     SpeakersComponent,
-    ProgramScheduleComponent
+    ProgramScheduleComponent,
+    SponorsComponent
   ],
   imports: [
     BrowserModule,

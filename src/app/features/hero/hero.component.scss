@@ -17,30 +17,49 @@
   margin: 0px 0px;
   // box-shadow:  20px 20px 60px #d9d9d9,
   //            -20px -20px 60px #ffffff;
+  .column{
+    display: flex;
+    justify-content: center;
+  }
 
   .text-container {
     .title {
-      font-size: 4rem;
+      font-size: 6rem;
       font-weight: 700;
       color: white;
+      
       span {
         background: #FF331F;
         opacity: 0.9;
         color: white  ;
         padding: 0.5rem 1rem;
       }
+      p{
+        text-align: center;
+        padding-top: 1rem;
+        font-weight: 300;
+        font-size: 1.2rem;
+        display: block;
+      }
     }
     .subtitle {
       // font-size: 1rem;
-      padding: 1rem;
+     
+      
+      text-align: center;
+      padding-top: 4rem;
       font-weight: 300;
       color: rgb(214, 214, 214);
       span {
+        color: white;
         font-weight: 500;
       }
     }
   }
 }
+
+
+
 
 .event-date {
   // background-image: 0 90%;
@@ -103,62 +122,13 @@
   // animation-iteration-count: infinite;
 }
 
-@keyframes rotate-scale-up {
-  0% {
-    left: 0px;
-    top: 300px;
-  }
-  25% {
-    left: 300px;
-    top: 100px;
-  }
-  50% {
-    transform: rotate(-180deg);
-    left: 0px;
-    top: -100px;
-  }
-  75% {
-    left: 0px;
-    top: -50px;
-  }
-  100% {
-    transform: rotate(-270deg);
-    left: 0px;
-    top: 300px;
-  }
-}
-
-@keyframes rotate-scale-up-mobile {
-  0% {
-    left: 0px;
-    top: 300px;
-  }
-  25% {
-    left: 200px;
-    top: 100px;
-  }
-  50% {
-    transform: rotate(-180deg);
-    left: 0px;
-    top: -140px;
-  }
-  75% {
-    left: -400px;
-    top: -50px;
-  }
-  100% {
-    transform: rotate(-270deg);
-    left: 0px;
-    top: 300px;
-  }
-}
 
 @keyframes background {
   from {
     background-size: 100% 100%;
   }
   to {
-    background-size: 105% 105%;
+    background-size: 107% 107%;
   }
 }
 
@@ -222,24 +192,6 @@
   }
 }
 
-.sponsor {
-  background: url("https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1608359752/asme/bg6_znniuj.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0px 0px;
-  background-repeat: repeat-x;
-  animation: background 20s linear infinite alternate;
-
-  img {
-    height: 100px;
-    width: auto;
-    margin: auto;
-    filter: grayscale(70);
-  }
-  img:hover {
-    filter: grayscale(0);
-  }
-}
 
 .details {
   background: url("https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1608359752/asme/bg6_znniuj.png");
