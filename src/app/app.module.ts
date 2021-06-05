@@ -19,6 +19,7 @@ import { ProgramScheduleComponent } from './features/program-schedule/program-sc
 import { SponorsComponent } from './features/sponors/sponors.component';
 import { ContactComponent } from './features/contact/contact.component';
 import { EventDetailsComponent } from './features/event-details/event-details.component';
+import { AboutComponent } from './features/about/about.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { EventDetailsComponent } from './features/event-details/event-details.co
     ProgramScheduleComponent,
     SponorsComponent,
     ContactComponent,
-    EventDetailsComponent
+    EventDetailsComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
