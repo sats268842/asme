@@ -128,12 +128,15 @@
         justify-content: center;
         align-items: center;
         .icon{
+          
            width: 48px;
            height: 48px;
-           opacity: 0.8;
+           animation: icon 5s linear infinite alternate;
+           animation-timing-function: ease-in-out;
            img{
+           
             height: 100%;
-            opacity: 0.2;
+            
            }
         }
         
@@ -152,6 +155,16 @@
    }
    
 }
+@keyframes icon {
+  from {
+   transform: scale(0.9);
+   opacity: 0.6;
+  }
+  to {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
 @keyframes background {
     from {
       background-size: 100% 100%;
@@ -160,6 +173,8 @@
       background-size: 117% 117%;
     }
   }
+
+
 
 @media only screen and (max-width: 768px) {
 .about{
