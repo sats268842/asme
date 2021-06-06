@@ -70,7 +70,7 @@ export class EventsComponent implements OnInit {
       'img': '../../../assets/pixeltrue-idea-1.png',
       'day': '20',
       'time': 'June | 10.00 AM - 12.00 PM',
-      'details': '',
+      'details': 'Venue: Online\<br>\ Time: Entries are accepted from 9th June onwards. \<br><br>\ Bazzinga is looking for innovative ideas. It is a part of a series of competitions hosted by YUGMA 2021 . The competition  is open to all students with ideas related to Engineering products and Businesses.  Participants will develop and present  their idea in front of a panel of judges. \<br><br>\ Pitching will provide you with: \<br><br>\ • Helpful feedback on your ideas. \<br><br>\ • An Opportunity  to win prizes for best ideas. \<br><br>\ Requirements: \<br><br>\ • Students may register as a team or individual. \<br><br>\ • Team members  must be involved in all aspects of the pitching competition. \<br><br>\ • The team must show a balancing of skills in Engineering and other relevant areas. \<br><br>\ Guidelines : \<br><br>\ • Students have to send the abstracts before the deadline. \<br><br>\ • Top ideas will be shortlisted by the judges. \<br><br>\ • Selected students have to provide a detailed PPT presentation. \<br><br>\ • Top scorers  will be awarded.',
       'register': true,
 
     }  ,
