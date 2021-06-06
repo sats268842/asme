@@ -18,6 +18,11 @@ export class NavbarComponent implements OnInit {
     
     menuToggle(){
       this.toggle = !this.toggle;
+     
     }
+    onClick(){
+      this.toggle =false;
+    }
+   
 
 }
