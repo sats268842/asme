@@ -110,7 +110,7 @@
    }
    .event-count{
 
-        background: white;
+        background: rgb(248, 248, 248);
         color: black !important;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
       border-radius: 0.3rem;
@@ -131,7 +131,7 @@
           
            width: 48px;
            height: 48px;
-           animation: icon 5s linear infinite alternate;
+           animation: icon 2s linear infinite alternate;
            animation-timing-function: ease-in-out;
            img{
            
