@@ -1,5 +1,7 @@
 @import '../../../main-style.scss';
 .about{
+  animation: background 5s linear infinite alternate;
+  animation-timing-function: ease-in-out;
     background-image: radial-gradient(
         circle at 29% 55%,
         hsla(329, 0%, 99%, 0.05) 0%,
@@ -155,7 +157,7 @@
       background-size: 100% 100%;
     }
     to {
-      background-size: 107% 107%;
+      background-size: 117% 117%;
     }
   }
 
