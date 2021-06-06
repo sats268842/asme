@@ -2,7 +2,7 @@
 
   .item-grid {
     max-width: 1200px;
-    margin: 100px auto;
+    margin: 2rem auto;
     position: relative;
     box-shadow: 0 5px 10px 0 rgba(0,0,0,.3);
     overflow:hidden;
@@ -123,4 +123,16 @@
         width: 100%;
     }
 
+}
+
+.speakers-heading{
+   
+  h1{
+      font-size: 3rem;
+      font-weight: 600;
+      color: black;
+  }
+  p{
+   font-weight: 300;
+  }
 }

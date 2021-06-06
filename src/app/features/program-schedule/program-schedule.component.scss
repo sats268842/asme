@@ -11,6 +11,18 @@
     }
   
   }
+  .program-heading{
+    text-align: center;
+    margin: 1rem 0;
+    h1{
+        font-size: 2rem;
+        font-weight: 600;
+        color: black;
+    }
+    p{
+     font-weight: 300;
+    }
+  }
 ::ng-deep{
     .mat-tab-body-content{
         overflow: hidden !important;

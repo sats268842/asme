@@ -14,13 +14,13 @@
     <img  src="../../../assets/Yugmalatest.png" alt="" />
   </div>
   <ul class="navbar-items">
-    <li class="item">Home</li>
-    <li class="item">About</li>
-    <li class="item">Schedule</li>
-    <li class="item">Speakers</li>
-    <li class="item">Sponsors</li>
-    
-      <button class="navbar-items-button">Register Now</button>
+   <a routerLink="/" fragment="home"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"> <li class="item" >Home</li></a>
+   <a routerLink="/" fragment="about"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"> <li class="item" >About</li></a> 
+   <a routerLink="/" fragment="schedule"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"> <li class="item">Schedule</li></a>
+   <a routerLink="/" fragment="speakers"  routerLinkActive="active"><li class="item">Speakers</li></a>
+   <a routerLink="/" fragment="sponsors"  routerLinkActive="active"> <li class="item">Sponsors</li></a>
+
+   <a routerLink="/" fragment="events"> <button class="navbar-items-button">Register Now</button></a>
     
   </ul>
 </nav>

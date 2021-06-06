@@ -1,23 +1,23 @@
 @import '../../../main-style.scss';
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-//   font-family: "Open Sans", sans-serif;
-  min-height: 100vh;
-  font-size: 16px;
+
+.event-heading{
+  h1{
+      font-size: 3rem;
+      font-weight: 600;
+      color: black;
+  }
+  p{
+   font-weight: 300;
+  }
 }
 
-.container-card{
+.container-cards{
+    margin-top: 2rem;
     display: flex;
     justify-content:center;
     align-items:center;
 }
-.container {
+.container-card {
   display: flex;
   justify-content:center;
   align-items:center;
@@ -61,7 +61,7 @@ a {
 }
 .card-box span {
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 1rem;
   color: $primary;
   font-weight: bold;
 
@@ -81,8 +81,8 @@ a {
 
 
 
-@media screen and (min-width: 1216px) {
-    .container:not(.is-max-desktop) {
-    max-width: 100%;
-}
-}
+// @media screen and (min-width: 1216px) {
+//     .container:not(.is-max-desktop) {
+//     max-width: 100%;
+// }
+// }

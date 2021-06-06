@@ -1,12 +1,149 @@
+@import '../../../main-style.scss';
 .about{
-    .about-container{
-        padding: 2rem 2rem;
-        span{
+   
+   &-heading{
+       h1{
+           font-size: 3rem;
+           font-weight: 600;
+           color: black;
+       }
+       p{
+        font-weight: 300;
+       }
+   }
+   &-content{
+
+       margin-top: 2rem;
+    p{
+        columns: 2;
+        font-weight: 400;
+    
+       }
+       span{
+           font-weight: 600;
+           text-align: center;
+       }
+   }
+   .event-count{
+    background-image: radial-gradient(
+        circle at 29% 55%,
+        hsla(329, 0%, 99%, 0.05) 0%,
+        hsla(329, 0%, 99%, 0.05) 4%,
+        transparent 4%,
+        transparent 44%,
+        transparent 44%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 85% 89%,
+        hsla(329, 0%, 99%, 0.05) 0%,
+        hsla(329, 0%, 99%, 0.05) 51%,
+        transparent 51%,
+        transparent 52%,
+        transparent 52%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 6% 90%,
+        hsla(329, 0%, 99%, 0.05) 0%,
+        hsla(329, 0%, 99%, 0.05) 53%,
+        transparent 53%,
+        transparent 64%,
+        transparent 64%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 35% 75%,
+        hsla(329, 0%, 99%, 0.05) 0%,
+        hsla(329, 0%, 99%, 0.05) 6%,
+        transparent 6%,
+        transparent 98%,
+        transparent 98%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 56% 75%,
+        hsla(329, 0%, 99%, 0.05) 0%,
+        hsla(329, 0%, 99%, 0.05) 16%,
+        transparent 16%,
+        transparent 23%,
+        transparent 23%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 42% 0%,
+        hsla(329, 0%, 99%, 0.05) 0%,
+        hsla(329, 0%, 99%, 0.05) 3%,
+        transparent 3%,
+        transparent 26%,
+        transparent 26%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 29% 28%,
+        hsla(329, 0%, 99%, 0.05) 0%,
+        hsla(329, 0%, 99%, 0.05) 51%,
+        transparent 51%,
+        transparent 75%,
+        transparent 75%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 77% 21%,
+        hsla(329, 0%, 99%, 0.05) 0%,
+        hsla(329, 0%, 99%, 0.05) 35%,
+        transparent 35%,
+        transparent 55%,
+        transparent 55%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 65% 91%,
+        hsla(329, 0%, 99%, 0.05) 0%,
+        hsla(329, 0%, 99%, 0.05) 46%,
+        transparent 46%,
+        transparent 76%,
+        transparent 76%,
+        transparent 100%
+      ),
+      linear-gradient(45deg, rgb(255, 26, 17), rgb(255, 26, 17));
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border-radius: 0.3rem;
+       margin-top: 4rem;
+       display: flex;
+       flex-direction: row;
+       padding: 2rem 1.5rem;
+       justify-content: space-around;
+       width: 100%;
+       .event{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        h1{
+            font-size: 2rem;
             font-weight: 600;
         }
+       }
+   }
+   
+}
+
+
+@media only screen and (max-width: 768px) {
+.about{
+   
+
+    &-content{
+ 
+        margin-top: 2rem;
+     p{
+         columns: 1;
+         font-weight: 400;
+     
+        }
+       
     }
-    .title{
-        text-align: center;
-        font-weight: 500;
-    }
+}
 }
