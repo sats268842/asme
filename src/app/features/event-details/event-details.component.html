@@ -1,4 +1,4 @@
-<div class="event-details">
+<section class="section event-details">
 
 
     <div class="event-container">
@@ -9,6 +9,25 @@
             
         </div>
     </div>
-    <p [innerHTML]="item.details"></p>
+    <div class="container event-detail">
+        
+        <div class="columns is-vcentered">
+            <div class="column is-4">
+                <div class="img-container">
+                    <img [src]=item.img alt="">
+                </div>
+           
+            </div>
+            <div class="column">
+                <p [innerHTML]="item.details"></p>
+                
+        <div class="register-button">
+            <button>Register Now</button>
+        </div>
     
+            </div>
+        </div>
+
 </div>
+    
+</section>

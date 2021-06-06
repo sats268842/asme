@@ -6,132 +6,26 @@
     <h1>Events</h1>
    </div>
 </div>
+
+<div class="container">
 <div class="container-cards">
 <div class="container-card">
    
-    <div class="card-box">
+    <div class="card-box" *ngFor="let item of events">
       <div class="card-img">
-        <img src="../../../assets/no-connection-6.png" alt="">
+        <img [src]=item.img alt="">
       </div>
       <div class="card-content">
-        <span>E - Talk Vinay Menon</span>
-        <p class="date">18<sup>th</sup> June | 7.00 PM - 7.30 PM</p>
-        <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></p>
-        <a class="link">More Details-></a>
+        <span>{{item.title}}</span>
+        <p class="date">{{item.day}}<sup>th</sup>{{item.time}}</p>
+        <p><a href="#">{{item.short}}</a></p>
+        <a class="link" (click)="eventDetails(item)">More Details-></a>
       </div>
   
     </div>
 
-    <div class="card-box">
-        <div class="card-img">
-          <img src="../../../assets/taxi-576.png" alt="">
-        </div>
-        <div class="card-content">
-          <span>G.O.A.T</span>
-          <p class="date">19<sup>th</sup> June | 10.00 AM - 12.00 PM</p>
-        <p><a href="#">Want to experience a trial of the process to acquire your dream job.</a></p>
-        <a class="link">More Details-></a>
-        </div>
-    
-      </div>
-    <div class="card-box">
-      <div class="card-img">
-        <img src="../../../assets/clip-1615.png" alt="">
-      </div>
-      <div class="card-content">
-        <span>Digital Holmes</span>
-        <p class="date">12<sup>th</sup> June | 9.00 AM</p>
-        <p><a href="#">Digital holmes is a virtual treasure hunt event </a></p>
-        <a class="link">More Details-></a>
-      </div>
-  
-    </div>
-    <div class="card-box">
-      <div class="card-img">
-        <img src="../../../assets/clip-girl-with-pencil.png" alt="">
-      </div>
-      <div class="card-content">
-        <span>CAD BATTLE - Blueprint</span>
-        <p class="date">18<sup>th</sup> June | 7.00 - 7.30 PM</p>
-        <p><a href="#">Blueprint is a unique engineering designing competition conducted to find out the most ingenious designer among us.</a></p>
-        <a class="link">More Details-></a>
-      </div>
-  
-    </div>
-    <div class="card-box">
-      <div class="card-img">
-        <img src="../../../assets/pixeltrue-idea-1.png" alt="">
-      </div>
-      <div class="card-content">
-        <span>Bazzinga</span>
-        <p class="date">20<sup>th</sup> June | 10.00 AM - 12.00 PM</p>
-        <p><a href="#">Bazzinga is looking for innovative ideas.</a></p>
-        <a class="link">More Details-></a>
-      </div>
-  
-    </div>
-    <div class="card-box">
-      <div class="card-img">
-        <img src="../../../assets/urban-848.png" alt="">
-      </div>
-      <div class="card-content">
-        <span>BRIDGE</span>
-        <p class="date">12<sup>th</sup> June | 6:30 PM to 7:30 PM</p>
-        <p><a href="#">Webinar on the topic of  "DISPARITY BETWEEN COLLEGE 
-          LEARNING AND INDUSTRIAL EXPECTATIONS" 
-          </a></p>
-        <a class="link">More Details-></a>
-      </div>
-  
-    </div>
-    <div class="card-box">
-      <div class="card-img">
-        <img src="https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
-      </div>
-      <div class="card-content">
-        <span>CAD BATTLE - Blueprint </span>
-        <p class="date">18<sup>th</sup> June | 7.00 - 7.30 PM</p>
-        <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></p>
-        <a class="link">More Details-></a>
-      </div>
-  
-    </div>
-    <div class="card-box">
-      <div class="card-img">
-        <img src="https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
-      </div>
-      <div class="card-content">
-        <span>CAD BATTLE - Blueprint </span>
-        <p class="date">18<sup>th</sup> June | 7.00 - 7.30 PM</p>
-        <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></p>
-        <a class="link">More Details-></a>
-      </div>
-  
-    </div>
-    <div class="card-box">
-      <div class="card-img">
-        <img src="https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
-      </div>
-      <div class="card-content">
-        <span>CAD BATTLE - Blueprint </span>
-        <p class="date">18<sup>th</sup> June | 7.00 - 7.30 PM</p>
-        <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></p>
-        <a class="link">More Details-></a>
-      </div>
-  
-    </div>
-    <div class="card-box">
-      <div class="card-img">
-        <img src="https://images.pexels.com/photos/1036936/pexels-photo-1036936.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
-      </div>
-      <div class="card-content">
-        <span>CAD BATTLE - Blueprint </span>
-        <p class="date">18<sup>th</sup> June | 7.00 - 7.30 PM</p>
-        <p><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a></p>
-        <a class="link">More Details-></a>
-      </div>
-  
-    </div>
+ 
   </div>
+</div>
 </div>
 </section>
