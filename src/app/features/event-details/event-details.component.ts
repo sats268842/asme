@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , ViewEncapsulation} from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute, ActivatedRouteSnapshot, Router } from '@angular/router';
 import { ServiceService } from 'src/app/core/service.service';
@@ -6,7 +6,8 @@ import { ServiceService } from 'src/app/core/service.service';
 @Component({
   selector: 'app-event-details',
   templateUrl: './event-details.component.html',
-  styleUrls: ['./event-details.component.scss']
+  styleUrls: ['./event-details.component.scss'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class EventDetailsComponent implements OnInit {
   item: any

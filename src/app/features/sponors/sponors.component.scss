@@ -3,18 +3,18 @@
     // color: white;
     // background: $primary;
     .logo{
-      background: $primary;
-      margin: 0.5rem 0.5rem;
-      padding: 2rem 0rem;
+      // background: $primary;
+      margin: 1.5rem 0.5rem;
+      // padding: 2rem 0rem;
     img {
       height: 60px;
       width: auto;
       margin: auto;
-      filter: brightness(0) invert(1);
+      // filter: brightness(0) invert(1);
       transition: all 0.2s  ease-in;
       
       &:hover {
-        filter: brightness(1) invert(0);
+        // filter: brightness(1) invert(0);
       }
     }
  

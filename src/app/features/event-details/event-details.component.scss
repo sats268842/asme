@@ -1,7 +1,7 @@
 @import '../../../main-style.scss';
 .event-details{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom, #083d77, #09407d, #094483, #0a478a, #0b4b90);
+    background-image: repeating-linear-gradient(135deg, rgba(189,189,189,0.1) 0px, rgba(189,189,189,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(8,61,119),rgb(8,61,119));
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -42,9 +42,18 @@
         border: none;
         box-shadow: none;
         border-radius: 4px;
+        font-size: 1rem;
         transition: all 0.3s ease-in;
         font-weight: 600;
+        cursor: pointer;
         color: white;
+        &:disabled{
+          background: gray;
+          // color: black;
+          &:hover{
+            background: gray;
+          }
+        }
         &:hover{
           background: $secondary;
           color: white !important;
@@ -64,12 +73,25 @@
         }
       }
       p{
-        font-weight: 500;
+        // font-weight: 400;
       }
+  
     }
 }
 
-
+li{
+  padding-top: 1rem;
+}
+.high{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.main{
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 
   @media only screen and (max-width: 768px) {
     .event-details{

@@ -96,14 +96,13 @@
       &:nth-child(2n) {
         border-bottom: 3.5px solid $primary;
       }
-      transition: all 0.5s ease;
+      transition: all 0.5s ease-in;
       transition-timing-function: linear;
       transition-delay: 0;
-      background: white;
-      
+      background-image: repeating-linear-gradient(135deg, rgba(118,118,118, 0.04) 0px, rgba(118,118,118, 0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, rgb(255,255,255),rgb(255,255,255));
       &:hover {
         color: white !important;
-        background: $secondary;
+        background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, rgb(255,26,17),rgb(255,26,17));
         .container {
           .time {
             font-weight: 400;
@@ -114,7 +113,7 @@
           }
         }
         &:nth-child(2n) {
-          background: $primary;
+          background: repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, rgb(6,72,143),rgb(6,72,143));
         }
       }
       .container {

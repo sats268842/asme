@@ -19,10 +19,18 @@
            
             </div> -->
             <div class="column">
-                <p [innerHTML]="item.details"></p>
+                <p [innerHTML]="item?.details"></p>
                 
         <div class="register-button">
-            <button>Register Now</button>
+            <a
+            [href]=item?.registrationLink
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button
+            [disabled]="!item?.register"
+            >{{item?.register == true ? 'Register Now' :'Registeration Closed'}}</button>
+            </a>
         </div>
     
             </div>

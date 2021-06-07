@@ -16,11 +16,11 @@
   <ul class="navbar-items">
    <a routerLink="/" fragment="home" (click)="onClick()" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"> <li class="item" >Home</li></a>
    <a routerLink="/" fragment="about" (click)="onClick()" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"> <li class="item" >About</li></a> 
-   <a routerLink="/" fragment="schedule" (click)="onClick()"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"> <li class="item">Schedule</li></a>
    <a routerLink="/" fragment="speakers" (click)="onClick()"  routerLinkActive="active"><li class="item">Speakers</li></a>
+   <a routerLink="/" fragment="schedule" (click)="onClick()"  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"> <li class="item">Schedule</li></a>
    <a routerLink="/" fragment="sponsors" (click)="onClick()"  routerLinkActive="active"> <li class="item">Sponsors</li></a>
 
-   <a routerLink="/" fragment="events"> <button class="navbar-items-button">Register Now</button></a>
+   <a routerLink="/" fragment="events"  (click)="onClick()" > <button class="navbar-items-button" >Register Now</button></a>
     
   </ul>
 </nav>

@@ -78,9 +78,9 @@ a {
   color: $secondary;
   font-weight: 600;
 }
-.card-box p a {
+.card-box p {
   font-size: 0.8rem;
-
+  color: #848b8c;
   &:hover {
     opacity: 0.9;
     font-weight: semi-bold;
