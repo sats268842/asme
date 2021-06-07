@@ -118,5 +118,10 @@ getEvent(item){
   return event;
   // return this.events.filter(x => x.url == url)[0];
 }
+getEventByParam(param){
+  let event =this.events.find(x => x.url == param);
+  console.log(event)
+  return event;
+}
 
 }

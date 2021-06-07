@@ -15,23 +15,27 @@ export class EventDetailsComponent implements OnInit {
     private title: Title,
     private dataService: ServiceService,
     private meta: Meta) { 
-      if(this.router.getCurrentNavigation().extras.state === undefined || null || this.dataService.getEvent(this.activatedRoute.snapshot.params.name) ){
+      if(this.router.getCurrentNavigation().extras.state === undefined || null || this.dataService.getEventByParam(this.activatedRoute.snapshot.params.name) ){
         
-        this.item = this.dataService.getEvent(this.activatedRoute.snapshot.params.name);
-        this.title.setTitle(this.item.item);
-          this.meta.updateTag({
-        'description': this.item.short
-    });
+        this.item = this.dataService.getEventByParam(this.activatedRoute.snapshot.params.name);
+       
         // this.router.navigate(['../'])
       }
       else{
+        // this.router.navigate(['../'])
         this.item = this.dataService.getEvent(history.state);
-        console.log(this.item)
       }
     }
 
   ngOnInit(): void {
     // this.item = history.state
+    if(this.item){
+      this.title.setTitle(this.item.title);
+      this.meta.updateTag({
+      'description': this.item.short
+  });
+    }
+   
   }
 
 }
