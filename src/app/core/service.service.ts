@@ -80,14 +80,13 @@ export class ServiceService {
     'time': 'June | 6:30 PM to 7:30 PM',
     'details': '',
     'register': false,
-
   },
   {
     'title': 'Talk session 1',
     'subtitle': '',
     'url': 'Talksession1',
     'short': '',
-    'img': '../../../assets/no-connection-6.png',
+    'img': '../../../assets/lqbgt.png',
     'day': '18',
     'time': 'June | 7.00 PM - 7.30 PM',
     'details': '',
@@ -105,7 +104,7 @@ export class ServiceService {
     'details': '',
     'register': true,
 
-  },
+  }
 ]
 
 getAllEvents(){

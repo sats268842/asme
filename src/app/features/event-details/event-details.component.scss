@@ -1,13 +1,18 @@
 @import '../../../main-style.scss';
 .event-details{
-    height: 25vh;
-    background: url('../../../assets/bg.png');
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #083d77, #09407d, #094483, #0a478a, #0b4b90);
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
     
+     
     .event-container{
-        padding-top: 10rem;
-        margin-bottom: 1rem;
+      
+     
+     
+        padding-top: 5rem;
+        // margin-bottom: 1rem;
         text-align: center;
         span {
             background: #FF331F;
@@ -22,16 +27,17 @@
         }
     }
     .event-detail{
+
+      color: white;
       margin-top: 2rem;
-      padding-bottom: 2rem;
       .register-button{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 4rem 0;
+        margin: 3rem 0;
        
         button{
-        padding: 0.7rem 1.1rem;
+        padding: 0.8rem 1.2rem;
         background: $secondary;
         border: none;
         box-shadow: none;
@@ -58,7 +64,7 @@
         }
       }
       p{
-        font-weight: 400;
+        font-weight: 500;
       }
     }
 }
@@ -67,9 +73,9 @@
 
   @media only screen and (max-width: 768px) {
     .event-details{
-        height: 25vh;
+        
         .event-container{
-            padding-top: 9rem;
+            padding-top: 4rem;
             text-align: center;
             span {
                 background: #FF331F;
