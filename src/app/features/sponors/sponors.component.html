@@ -8,30 +8,15 @@
        </div>
 </div>
   
-    <div class="columns  is-vcentered is-multiline is-centered pt-6" [ngsRevealSet]="{ reset:true}" [ngsInterval]="450" [ngsSelector]="'.logo'">
+    <div class="columns  is-vcentered is-multiline is-centered pt-6">
   
   
   
-     <div class="column is-3 logo">
-      <img src="../../../assets/SJCET TYPO PNG.png" class="image
-      " />
+     <div class="column is-3 logo"  data-aos="fade-up" *ngFor="let item of logos"> 
+      <img [src]=item class="image " />
      </div>
   
-     <div class="column is-3 logo">
-      <img src="../../../assets/SJCET TYPO PNG.png" class="image
-      " />
-     </div>
-  
-     <div class="column is-3 logo">
-      <img src="../../../assets/SJCET TYPO PNG.png" class="image
-      " />
-     </div>
-
-     <div class="column is-3 logo">
-        <img src="../../../assets/SJCET TYPO PNG.png" class="image
-        " />
-       </div>
-  
+   
   
     </div>
   

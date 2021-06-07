@@ -12,4 +12,12 @@ export class SponorsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  logos=[
+    '../../../assets/SJCET TYPO PNG.png',
+    '../../../assets/SJCET TYPO PNG.png',
+    '../../../assets/SJCET TYPO PNG.png',
+    '../../../assets/SJCET TYPO PNG.png'
+
+  ]
+
 }
