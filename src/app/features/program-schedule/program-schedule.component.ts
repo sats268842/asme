@@ -90,14 +90,6 @@ export class ProgramScheduleComponent implements OnInit {
 
     },
     {
-      'title': 'Networking Session',
-      'subtitle': '',
-      'time': '9.00 AM - 9.30 AM',
-      'details': '',
-      'register': true,
-
-    },
-    {
       'title': ' G.O.A.T',
       'subtitle': 'Round-3',
       'time': '10.00 AM - 12.00 PM',
