@@ -21,6 +21,7 @@ import { ContactComponent } from './features/contact/contact.component';
 import { EventDetailsComponent } from './features/event-details/event-details.component';
 import { AboutComponent } from './features/about/about.component';
 import { EventsComponent } from './features/events/events.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { EventsComponent } from './features/events/events.component';
     ContactComponent,
     EventDetailsComponent,
     AboutComponent,
-    EventsComponent
+    EventsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

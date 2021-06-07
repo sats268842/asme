@@ -38,6 +38,6 @@ if(this.sponors==11){
   clearInterval(this.interval);
 }
 
-},300);
+},600);
  }
 }
