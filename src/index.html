@@ -1,60 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Asme</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <head>
+    <meta charset="utf-8" />
+    <title>Asme</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
-  <script src="https://js.pusher.com/beams/1.0/push-notifications-cdn.js"></script>
-  <script src="https://kit.fontawesome.com/8632b3d5f2.js" crossorigin="anonymous"></script>
+    <script src="https://js.pusher.com/beams/1.0/push-notifications-cdn.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8632b3d5f2.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <link rel="stylesheet" type="text/css" href="csshake.min.css">
+    <link rel="stylesheet" type="text/css" href="csshake.min.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <meta name="keywords" content="">
-  <meta name="description" content='YUGMA 2021 is a collective techno-cultural event of eleven ASME Student Sections across Kerala collaborating for the first time in solidarity with the social obligation and team spirit they possess. The three-day-long technical extravaganza aims to build a strong structural student network and expand the knowledge curve by migrating knowledge, conceptualizing innovations, and creating vibrant experiences for students and early-career engineers. As our tagline goes, YUGMA 2021 is an embellished ensemble of passion-driven volunteers putting their heart and soul into a celebration of learning. So let’s raise a toast as we welcome you to our flagship event.'>
-  <meta name="author" content="YUGMA 2021">
-  <meta name="owner" content="YUGMA 2021">
-  <meta name="creator" content="YUGMA 2021">
-  <meta name="Copyright" content="YUGMA 2021">
-  <meta name="title" content="YUGMA 2021">
-  <meta name="robots" content="index, follow">
-  <meta charset="UTF-8">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="">
-  <meta name="twitter:title" content="YUGMA 2021">
-  <meta name="twitter:description" content="What started as a passion for us, now stands tall as a dream embodiment of hard work and support from many. Vajraah started in 2013 as a designing unit and now is on the journey to complete 8 blissful years with a showroom that we call as our second home. Taking orders from customers and getting creative with handworks, Vajraah is the talk of Kozhikode when it comes to boutiques. We follow latest designs from every corner and keep on track with the fashion trends that gets revamped every single day.">
-  <meta name="twitter:creator" content="YUGMA 2021">
-  <meta name="twitter:image" content="">
-  <meta name=" twitter:description" content="A design-minded front-end software engineer focused on building beautiful interfaces &amp; experiences. I' m currently pursuing Computer Science and Engineering from APJ Abdul Kalam Technological University. As a software engineer, I enjoy bridging the gap between engineering and design combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.">
-  <meta name="og:type" content="website">
-  <meta name="og:url" content="">
-  <meta name="og:title" content="YUGMA 2021">
-  <meta name="og:description" content="A design-minded front-end software engineer focused on building beautiful interfaces &amp; experiences. I' m currently pursuing Computer Science and Engineering from APJ Abdul Kalam Technological University. As a software engineer, I enjoy bridging the gap between engineering and design combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.">
-  <meta name="og:image" content="">
-  
-  <script>
-    const beamsClient = new PusherPushNotifications.Client({
-      instanceId: '065b5b7e-1ca6-44c9-9857-1691610eb3d2',
-    });
-  
-    beamsClient.start()
-      .then(() => beamsClient.addDeviceInterest('hello'))
-      .then(() => console.log('Successfully registered and subscribed!'))
-      .catch(console.error);
-  </script> 
-<script src="https://js.pusher.com/beams/1.0/push-notifications-cdn.js"></script>
-<!-- or from surge.sh -->
-<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+    <meta name="keywords" content="" />
+    <meta
+      name="description"
+      content="YUGMA 2021 is a collective techno-cultural event of eleven ASME Student Sections across Kerala collaborating for the first time in solidarity with the social obligation and team spirit they possess. The three-day-long technical extravaganza aims to build a strong structural student network and expand the knowledge curve by migrating knowledge, conceptualizing innovations, and creating vibrant experiences for students and early-career engineers. As our tagline goes, YUGMA 2021 is an embellished ensemble of passion-driven volunteers putting their heart and soul into a celebration of learning. So let’s raise a toast as we welcome you to our flagship event."
+    />
+    <meta name="author" content="YUGMA 2021" />
+    <meta name="owner" content="YUGMA 2021" />
+    <meta name="creator" content="YUGMA 2021" />
+    <meta name="Copyright" content="YUGMA 2021" />
+    <meta name="title" content="YUGMA 2021" />
+    <meta name="robots" content="index, follow" />
+    <meta charset="UTF-8" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="YUGMA 2021" />
+    <meta
+      name="twitter:description"
+      content="What started as a passion for us, now stands tall as a dream embodiment of hard work and support from many. Vajraah started in 2013 as a designing unit and now is on the journey to complete 8 blissful years with a showroom that we call as our second home. Taking orders from customers and getting creative with handworks, Vajraah is the talk of Kozhikode when it comes to boutiques. We follow latest designs from every corner and keep on track with the fashion trends that gets revamped every single day."
+    />
+    <meta name="twitter:creator" content="YUGMA 2021" />
+    <meta name="twitter:image" content="" />
+    <meta
+      name=" twitter:description"
+      content="A design-minded front-end software engineer focused on building beautiful interfaces &amp; experiences. I' m currently pursuing Computer Science and Engineering from APJ Abdul Kalam Technological University. As a software engineer, I enjoy bridging the gap between engineering and design combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences."
+    />
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="" />
+    <meta name="og:title" content="YUGMA 2021" />
+    <meta
+      name="og:description"
+      content="A design-minded front-end software engineer focused on building beautiful interfaces &amp; experiences. I' m currently pursuing Computer Science and Engineering from APJ Abdul Kalam Technological University. As a software engineer, I enjoy bridging the gap between engineering and design combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences."
+    />
+    <meta name="og:image" content="" />
 
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+    <script>
+      const beamsClient = new PusherPushNotifications.Client({
+        instanceId: "065b5b7e-1ca6-44c9-9857-1691610eb3d2",
+      });
+
+      beamsClient
+        .start()
+        .then(() => beamsClient.addDeviceInterest("hello"))
+        .then(() => console.log("Successfully registered and subscribed!"))
+        .catch(console.error);
+    </script>
+    <script src="https://js.pusher.com/beams/1.0/push-notifications-cdn.js"></script>
+    <!-- or from surge.sh -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://csshake.surge.sh/csshake.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
 </html>
