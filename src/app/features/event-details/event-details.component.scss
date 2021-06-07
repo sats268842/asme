@@ -1,8 +1,9 @@
 @import '../../../main-style.scss';
 .event-details{
     min-height: 100vh;
-    background: url('../../../assets/humour\ sapiens\ square.jpg');
+    background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url('../../../assets/humour\ sapiens\ square.jpg');
     background-size: cover;
+    // opacity: 0.8;
     // background-image: repeating-linear-gradient(135deg, rgba(189,189,189,0.1) 0px, rgba(189,189,189,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(8,61,119),rgb(8,61,119));
     background-size: cover;
     background-repeat: no-repeat;
