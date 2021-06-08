@@ -39,10 +39,10 @@ export class AboutComponent implements OnInit {
       this.speakers++;
      
     }
-  if(this.sponors<=10){
+  if(this.sponors<=9){
     this.sponors++;
 }
-if(this.events<=8){
+if(this.events<=6){
   this.events++;
 }
 if(this.sponors==11){

@@ -22,6 +22,7 @@ export class ServiceService {
     'active': true
 
   },
+  
   {
     'title':'Humour Sapien',
     'url': 'humoursapien',
@@ -34,19 +35,6 @@ export class ServiceService {
     'register': true,
     'registrationLink': 'https://forms.gle/1npj7Utjcd518z9YA',
     'active': true
-
-  },
-  {
-    'title': 'E - Talk',
-    'url': 'e-talk',
-    'subtitle': '-Vinay Menon',
-    'img': '../../../assets/no-connection-6.png',
-    'day': '18',
-    'time': 'June | 7.00 PM - 7.30 PM',
-    'short': 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    'details': "\"Your heart is where your treasure is, and you must find your treasure in order to make sense of everything.<br />   Paulo Coelho\n\nHere comes ASME EFx with an electrifying virtual treasure hunt event. \nThrough an  exciting digital puzzles the participants are going to sharpen the sequential thinking \nskills  about the current pandemic scenario.\n\n 🔰 Prizes worth RS 4000 /-♨️\n 🔰 Individual participation \n 🔰The event will be hosted through website.\n 🔰Will go live by June 12, Saturday morning and close by June 13, Sunday noon. \n\n In this digital treasure hunt we will be following up a storyline.\nAnd the theme goes like:\n\nThe COVID-19 pandemic has evolved into a deadlier disease. Once infected the virus will be eradicated in about two weeks, but most fail to make it and depart this life.\nThe govt has issued strict lockdowns due to the massive increase in death rates which brought the economic life stand still.\nRiots break out in the streets, govt is unable to exercise control over people, cities are ruled by gangs and the like which makes the situation worse.\n Its time for a superhero . \nAmid the ongoing pandemic, A graduate mechanical engineer wakes up. A crowned one man army to fight against the pandemic with his greatest powers of knowledge and skills to bring back to normalcy. A combat between man of courage and pandemic . A  combat for the existence of man kind.\n\n Will our superhero be the saviour❗\n Soldier are u ready ⁉️\n SUIT UP ‼️",
-    'register': true,
-    'active': false
 
   },
   {
@@ -64,6 +52,20 @@ export class ServiceService {
 
   },
   {
+    'title': 'Pride And Unprejudice',
+    'subtitle': '',
+    'url': 'talksession1',
+    'short': '',
+    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623063222/asme/2486688_gzq8h1.jpg',
+    'day': '18',
+    'time': 'June | 7.00 PM - 7.30 PM',
+    'details': '',
+    'register': true,
+    'active': false
+
+  },
+  
+  {
     'title': 'Digital Holmes',
     'subtitle': '',
     'url': 'digitalholmes',
@@ -75,6 +77,45 @@ export class ServiceService {
     'register': true,
     'active': false
   },
+  {
+    'title': 'Bridge',
+    'url': 'bridge',
+    'subtitle': '',
+    'img': '../../../assets/no-connection-6.png',
+    'day': '12',
+    'short': 'Webinar on the topic of  "DISPARITY BETWEEN COLLEGE LEARNING AND INDUSTRIAL EXPECTATIONS" ',
+    'time': 'June | 6:30 PM to 7:30 PM',
+    'details': 'A huge disparity exists between textbooks and the industry. A similar one exists between what you learn from college and what you would do for research. At times, this can be trying, and overwhelming to adapt to. We have something that will help you navigate through this!\<br><br>\ Join us along with Mr. Bibin Sagaram and Mr. Ronith Stanly as we take you through a witty yet informative session called  ‘BRIDGE’  on the topics ‘Industry\'s expectation from a recruit’  and ‘Expectations from a budding Researcher’ as a part of the technical festival YUGMA 2021!\<br><br>\ GUIDELINES \<br><br>\ \<ul>\ \<li>\👉 Zoom link activates at 6:15 pm \</li>\ \<li>\👉 Talk from Bibin sagaram till 6:45 pm \</li>\ \<li>\👉 Talk from ronith Stanly till 7 pm \</li>\ \<li>\👉 Q/A session from 7:00 to 7:30 pm \</li>\ \<li>\👉 Google form link to be posted in the \</li>\ \<br><br>\ Public chat to avail participation information for certificate distribution at the end of the session \<br><br>\ \<span class="hig">\ Grab your seats now! \</span>\ ',
+    'register': false,
+    'active': false
+  },
+  
+  {
+    'title': 'Bazinga',
+    'url': 'bazinga',
+    'subtitle': '',
+    'short': 'Bazzinga is looking for innovative ideas.',
+    'img': '../../../assets/pixeltrue-idea-1.png',
+    'day': '20',
+    'time': 'June | 10.00 AM - 12.00 PM',
+    'details': 'Bazinga is an idea- pitching competition exclusively for budding Technopreneurs who can sell ice to eskimos.\<br><br>\ From conceptualizing and convincing to positioning and marketizing, Bazinga gives you a robust platform to let your ideas have a solemn space it requires.\<br><br>\ \<span class="high">\ Requirements: \</span>\ \<br>\ \<ul>\ \<li>\ • Students may register as a team or as an individual.\</li>\ \<li>\• Involvement of all team members are highly advised during all phases of the competition.\</li>\ \<li>\• The team must possess skills in Engineering and other relevant fields.\</li>\ \<br><br>\ \<span class="high">\ GUIDELINES \</span>\ \<ul>\ \<li>\ •The problem statement will be given to the  participants only after the registration\</li>\ \<li>\• The competition will be conducted in two phases\</li>\ \<li>\• Phase-I is Abstract Submission and Phase-II is Presentation\</li>\ \<li>\• Deadline for Abstract submissions is on 16th of June, 2021 at 8 PM\</li>\ \<li>\• Top ideas from Phase-I will be shortlisted by the Judging panel  \</li>\ \<li>\• Students selected to phase-II must have a detailed PPT presentation on 20th of June, 2021\</li>\ \</ul> ',
+    'register': true,
+    'active': false
+  }  ,
+  {
+    'title': 'E - Talk',
+    'url': 'e-talk',
+    'subtitle': '-Vinay Menon',
+    'img': '../../../assets/no-connection-6.png',
+    'day': '18',
+    'time': 'June | 7.00 PM - 7.30 PM',
+    'short': 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    'details': "\"Your heart is where your treasure is, and you must find your treasure in order to make sense of everything.<br />   Paulo Coelho\n\nHere comes ASME EFx with an electrifying virtual treasure hunt event. \nThrough an  exciting digital puzzles the participants are going to sharpen the sequential thinking \nskills  about the current pandemic scenario.\n\n 🔰 Prizes worth RS 4000 /-♨️\n 🔰 Individual participation \n 🔰The event will be hosted through website.\n 🔰Will go live by June 12, Saturday morning and close by June 13, Sunday noon. \n\n In this digital treasure hunt we will be following up a storyline.\nAnd the theme goes like:\n\nThe COVID-19 pandemic has evolved into a deadlier disease. Once infected the virus will be eradicated in about two weeks, but most fail to make it and depart this life.\nThe govt has issued strict lockdowns due to the massive increase in death rates which brought the economic life stand still.\nRiots break out in the streets, govt is unable to exercise control over people, cities are ruled by gangs and the like which makes the situation worse.\n Its time for a superhero . \nAmid the ongoing pandemic, A graduate mechanical engineer wakes up. A crowned one man army to fight against the pandemic with his greatest powers of knowledge and skills to bring back to normalcy. A combat between man of courage and pandemic . A  combat for the existence of man kind.\n\n Will our superhero be the saviour❗\n Soldier are u ready ⁉️\n SUIT UP ‼️",
+    'register': true,
+    'active': false
+
+  },
+
   {
     'title': 'CAD BATTLE - Blueprint',
     'subtitle': '',
@@ -89,43 +130,8 @@ export class ServiceService {
 
   },
 
-  {
-    'title': 'Bazinga',
-    'url': 'bazinga',
-    'subtitle': '',
-    'short': 'Bazzinga is looking for innovative ideas.',
-    'img': '../../../assets/pixeltrue-idea-1.png',
-    'day': '20',
-    'time': 'June | 10.00 AM - 12.00 PM',
-    'details': 'Bazinga is an idea- pitching competition exclusively for budding Technopreneurs who can sell ice to eskimos.\<br><br>\ From conceptualizing and convincing to positioning and marketizing, Bazinga gives you a robust platform to let your ideas have a solemn space it requires.\<br><br>\ \<span class="high">\ Requirements: \</span>\ \<br>\ \<ul>\ \<li>\ • Students may register as a team or as an individual.\</li>\ \<li>\• Involvement of all team members are highly advised during all phases of the competition.\</li>\ \<li>\• The team must possess skills in Engineering and other relevant fields.\</li>\ \<br><br>\ \<span class="high">\ GUIDELINES \</span>\ \<ul>\ \<li>\ •The problem statement will be given to the  participants only after the registration\</li>\ \<li>\• The competition will be conducted in two phases\</li>\ \<li>\• Phase-I is Abstract Submission and Phase-II is Presentation\</li>\ \<li>\• Deadline for Abstract submissions is on 16th of June, 2021 at 8 PM\</li>\ \<li>\• Top ideas from Phase-I will be shortlisted by the Judging panel  \</li>\ \<li>\• Students selected to phase-II must have a detailed PPT presentation on 20th of June, 2021\</li>\ \</ul> ',
-    'register': true,
-    'active': false
-  }  ,
-  {
-    'title': 'Bridge',
-    'url': 'bridge',
-    'subtitle': '',
-    'img': '../../../assets/no-connection-6.png',
-    'day': '12',
-    'short': 'Webinar on the topic of  "DISPARITY BETWEEN COLLEGE LEARNING AND INDUSTRIAL EXPECTATIONS" ',
-    'time': 'June | 6:30 PM to 7:30 PM',
-    'details': 'A huge disparity exists between textbooks and the industry. A similar one exists between what you learn from college and what you would do for research. At times, this can be trying, and overwhelming to adapt to. We have something that will help you navigate through this!\<br><br>\ Join us along with Mr. Bibin Sagaram and Mr. Ronith Stanly as we take you through a witty yet informative session called  ‘BRIDGE’  on the topics ‘Industry\'s expectation from a recruit’  and ‘Expectations from a budding Researcher’ as a part of the technical festival YUGMA 2021!\<br><br>\ GUIDELINES \<br><br>\ \<ul>\ \<li>\👉 Zoom link activates at 6:15 pm \</li>\ \<li>\👉 Talk from Bibin sagaram till 6:45 pm \</li>\ \<li>\👉 Talk from ronith Stanly till 7 pm \</li>\ \<li>\👉 Q/A session from 7:00 to 7:30 pm \</li>\ \<li>\👉 Google form link to be posted in the \</li>\ \<br><br>\ Public chat to avail participation information for certificate distribution at the end of the session \<br><br>\ \<span class="hig">\ Grab your seats now! \</span>\ ',
-    'register': false,
-    'active': false
-  },
-  {
-    'title': 'Pride And Unprejudice',
-    'subtitle': '',
-    'url': 'talksession1',
-    'short': '',
-    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623063222/asme/2486688_gzq8h1.jpg',
-    'day': '18',
-    'time': 'June | 7.00 PM - 7.30 PM',
-    'details': '',
-    'register': true,
-    'active': false
 
-  },
+
   {
     'title': 'Spirited Symphony',
     'subtitle': '',
