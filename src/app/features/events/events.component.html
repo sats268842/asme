@@ -19,7 +19,7 @@
         <span>{{item.title}}</span>
         <p class="date">{{item.day}}<sup>th</sup> {{item.time}}</p>
         <p>{{item.short}}</p>
-        <a class="link" (click)="eventDetails(item)">More Details-></a>
+        <a class="link" (click)="eventDetails(item)">{{item.active? 'More Details->': 'Coming Soon'}}</a>
       </div>
   
     </div>
