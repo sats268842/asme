@@ -13,7 +13,7 @@
     
     <div class="card-box" *ngFor="let item of events" >
       <div class="card-img" >
-        <img [src]=item.img alt="" data-aos="flip-left">
+        <img [src]=item.img loading="lazy" [alt]="item.title" data-aos="flip-left">
       </div>
       <div class="card-content">
         <span>{{item.title}}</span>
@@ -22,9 +22,7 @@
         <a class="link" (click)="eventDetails(item)">{{item.active? 'More Details->': 'Coming Soon'}}</a>
       </div>
   
-    </div>
-  
- 
+    </div> 
   </div>
 </div>
 </section>
