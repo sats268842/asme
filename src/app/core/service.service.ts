@@ -12,7 +12,7 @@ export class ServiceService {
     'title': 'SHESPIRE',
     'url': 'shespire',
     'subtitle': '',
-    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623143607/asme/Shespire_square_ny4khu.jpg',
+    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623174766/asme/Shespire_square_with_logo_jaqmdi.jpg',
     'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623143607/asme/Shespire_square_ny4khu.jpg',
     'day': '13',
     'time': 'June | 6.00 PM - 7.30 PM',
