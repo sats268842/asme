@@ -54,7 +54,7 @@ export class ServiceService {
 
   },
   {
-    'title': 'Pride And Unprejudice',
+    'title': 'Pride And Unprejudiced',
     'subtitle': '',
     'url': 'talksession1',
     'short': '',

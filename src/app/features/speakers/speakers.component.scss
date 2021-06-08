@@ -93,16 +93,18 @@
   }
   
   .item-text-title {
-    font-weight: normal;
-    font-style: 16px;
+    // font-weight: normal;
+    font-size: 18px;
+    font-weight: 500;
     padding: 0 15px;
     margin: 5px 0 0 0;
   }
   
   .item-text-dek {
     text-transform: uppercase;
-    font-style: 14px;
+    font-size: 14px;
     opacity: 0.7;
+    padding: 0 15px;
     margin: 0;
   }
   

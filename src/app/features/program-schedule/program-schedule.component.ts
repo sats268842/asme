@@ -18,7 +18,7 @@ export class ProgramScheduleComponent implements OnInit {
   day1 = [
 
     {
-      'title': 'Inaugration Ceremony',
+      'title': 'Inauguration Ceremony',
       'subtitle': '',
       'time': '6.30 - 7.00 PM',
       'details': '',
@@ -46,7 +46,7 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': 'G.O.A.T',
-      'subtitle': 'Round1  - Aptitude',
+      'subtitle': 'Round 1 - Aptitude',
       'time': '10:00AM - 12:00 PM',
       'details': 'Hey everyone👋🏻\,\
       Want to experience a trial of the process to acquire your dream job😎 . That too with rewards at the end🙃💸. Here we bring to you the perfect event to showcase your vim and vigour in excelling as a new engineer👩‍🔬🧑🏻‍💻👨🏽‍🔧👩🏼‍🏭 . Explore your skillset and build up your resume📘 by taking part in the all new best engineer competition G.O.A.T [ Greatest of all Techies ] at ASME EFx .Hark back to what enticed you into engineering and employ this opportunity to propel🛫 you towards becoming that engineer who the world requires.💯 \br\📌Event details: \br\Three rounds 🔅Aptitude Test \br\Elocution \br\🔅Interview\br\ 📌Guidelines\:\\br\🔅Individual Event.\br\🔅Selected students will be interviewed.\br\🔅Top students are selected from this.',
@@ -74,7 +74,7 @@ export class ProgramScheduleComponent implements OnInit {
 
   day3 = [
     {
-      'title': 'PRIDE AND UNPREJUDICE',
+      'title': 'PRIDE AND UNPREJUDICED',
       'subtitle': '',
       'time': '9.00 AM - 9.30 AM',
       'details': '',
