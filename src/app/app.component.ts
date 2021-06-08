@@ -1,6 +1,4 @@
 import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
-import Swiper from 'swiper/bundle';
-import SwiperCore from "swiper/core";
 
 import * as AOS from 'aos';
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
@@ -42,89 +40,5 @@ export class AppComponent implements AfterViewInit, OnInit {
 
 
   ngAfterViewInit(): void {
-
-    this.breakpointObserver.observe([
-      '(max-width: 768px)'
-        ]).subscribe(result => {
-          if (result.matches) {
-            let mySwiper = new Swiper('.swiper-container',{
-              navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-              },
-              slidesPerView: 1,
-              spaceBetween: 30,
-              slidesPerGroup: 1,
-              lazy: true,
-              loop: true,
-              pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-              },
-
-            });
-          }
-          else {
-            let mySwiper = new Swiper('.swiper-container',{
-              // centeredSlides: true,
-              navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-              },
-              slidesPerView: 1,
-              spaceBetween: 30,
-              slidesPerGroup: 1,
-              lazy: true,
-              loop: true,
-              pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-              },
-
-            });
-          }
-        });
-    // Wrap every letter in a span
-    var textWrapper = document.querySelector('.ml11 .letters');
-    textWrapper.innerHTML = textWrapper.textContent.replace(
-      /([^\x00-\x80]|\w)/g,
-      "<span class='letter'>$&</span>"
-    );
-
-    anime
-      .timeline({ loop: true })
-      .add({
-        targets: '.ml11 .line',
-        scaleY: [0, 1],
-        opacity: [0.5, 1],
-        easing: 'easeOutExpo',
-        duration: 700,
-      })
-      .add({
-        targets: '.ml11 .line',
-        translateX: [
-          0,
-          document.querySelector('.ml11 .letters').getBoundingClientRect()
-            .width + 10,
-        ],
-        easing: 'easeOutExpo',
-        duration: 700,
-        delay: 100,
-      })
-      .add({
-        targets: '.ml11 .letter',
-        opacity: [0, 1],
-        easing: 'easeOutExpo',
-        duration: 5000,
-        offset: '-=775',
-        delay: (el, i) => 34 * (i + 1),
-      })
-      .add({
-        targets: '.ml11',
-        opacity: 0,
-        duration: 1000,
-        easing: 'easeOutExpo',
-        delay: 1000,
-      });
   }
 }
