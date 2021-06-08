@@ -10,8 +10,8 @@
 
 <div class="container-cards">
 <div class="container-card">
-    <span *ngFor="let item of events" >
-    <div class="card-box" *ngIf="item.active">
+    
+    <div class="card-box" *ngFor="let item of events" >
       <div class="card-img" >
         <img [src]=item.img alt="" data-aos="flip-left">
       </div>
@@ -23,8 +23,7 @@
       </div>
   
     </div>
-  </span>
-
+  
  
   </div>
 </div>
