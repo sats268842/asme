@@ -35,14 +35,14 @@ export class AboutComponent implements OnInit {
    
   this.interval = setInterval(() => {
     if(this.scroll){
-    if(this.speakers<=3){
+    if(this.speakers<=5){
       this.speakers++;
      
     }
   if(this.sponors<=10){
     this.sponors++;
 }
-if(this.events<=6){
+if(this.events<=8){
   this.events++;
 }
 if(this.sponors==11){

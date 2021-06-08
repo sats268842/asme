@@ -10,7 +10,7 @@ import {MatIconModule} from '@angular/material/icon';
 
 // import { SwiperModule } from 'angular/src/public-api';
 // import { SwiperModule } from '../../node_modules/swiper/angular/angular/src/public-api;
-import {NgsRevealModule} from 'ngx-scrollreveal';
+
 import {MatChipsModule} from '@angular/material/chips';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { HeroComponent } from './features/hero/hero.component';
@@ -43,7 +43,6 @@ import { FooterComponent } from './shared/footer/footer.component';
     MatTabsModule,
     BrowserAnimationsModule,
     MatIconModule,
-    NgsRevealModule,
     MatChipsModule
   ],
   providers: [],

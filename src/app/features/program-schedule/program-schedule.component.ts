@@ -46,7 +46,7 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': 'G.O.A.T',
-      'subtitle': 'Round-1',
+      'subtitle': 'Round1  - Aptitude',
       'time': '10:00AM - 12:00 PM',
       'details': 'Hey everyone👋🏻\,\
       Want to experience a trial of the process to acquire your dream job😎 . That too with rewards at the end🙃💸. Here we bring to you the perfect event to showcase your vim and vigour in excelling as a new engineer👩‍🔬🧑🏻‍💻👨🏽‍🔧👩🏼‍🏭 . Explore your skillset and build up your resume📘 by taking part in the all new best engineer competition G.O.A.T [ Greatest of all Techies ] at ASME EFx .Hark back to what enticed you into engineering and employ this opportunity to propel🛫 you towards becoming that engineer who the world requires.💯 \br\📌Event details: \br\Three rounds 🔅Aptitude Test \br\Elocution \br\🔅Interview\br\ 📌Guidelines\:\\br\🔅Individual Event.\br\🔅Selected students will be interviewed.\br\🔅Top students are selected from this.',
@@ -55,7 +55,7 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': 'G.O.A.T',
-      'subtitle': 'Round-2',
+      'subtitle': 'Round 2 - Group Discussion',
       'time': '3:30 PM - 6:00 PM',
       'details': 'Hey everyone👋🏻\,\
       Want to experience a trial of the process to acquire your dream job😎 . That too with rewards at the end🙃💸. Here we bring to you the perfect event to showcase your vim and vigour in excelling as a new engineer👩‍🔬🧑🏻‍💻👨🏽‍🔧👩🏼‍🏭 . Explore your skillset and build up your resume📘 by taking part in the all new best engineer competition G.O.A.T [ Greatest of all Techies ] at ASME EFx .Hark back to what enticed you into engineering and employ this opportunity to propel🛫 you towards becoming that engineer who the world requires.💯 \br\📌Event details: \br\Three rounds 🔅Aptitude Test \br\Elocution \br\🔅Interview\br\ 📌Guidelines\:\\br\🔅Individual Event.\br\🔅Selected students will be interviewed.\br\🔅Top students are selected from this.',
@@ -64,7 +64,7 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': 'Bridge',
-      'subtitle': '',
+      'subtitle': 'Speakers - Bibin Sagaram, Ronith Stanly',
       'time': '7:00 PM - 8:00 PM',
       'details': '',
       'register': false,
@@ -74,7 +74,7 @@ export class ProgramScheduleComponent implements OnInit {
 
   day3 = [
     {
-      'title': 'Talk session 1',
+      'title': 'PRIDE AND UNPREJUDICE',
       'subtitle': '',
       'time': '9.00 AM - 9.30 AM',
       'details': '',
@@ -82,7 +82,7 @@ export class ProgramScheduleComponent implements OnInit {
 
     },
     {
-      'title': 'Talk session 2',
+      'title': 'SPIRITED SYMPHONY',
       'subtitle': '',
       'time': '9.00 AM - 9.30 AM',
       'details': '',
@@ -91,15 +91,15 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': ' G.O.A.T',
-      'subtitle': 'Round-3',
+      'subtitle': 'Round 3 - Interview',
       'time': '10.00 AM - 12.00 PM',
       'details': '',
       'register': false,
 
     },
     {
-      'title': 'Bazzinga',
-      'subtitle': 'Round-3',
+      'title': 'Bazinga',
+      'subtitle': '',
       'time': '10.00 AM - 12.00 PM',
       'details': '',
       'register': true,
@@ -107,15 +107,15 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': 'Digital Holmes',
-      'subtitle': 'Round-3',
+      'subtitle': '',
       'time': '12.00 PM',
       'details': '',
       'register': false,
 
     },
     {
-      'title': 'Feliciataion',
-      'subtitle': 'Round-3',
+      'title': 'Felicitation',
+      'subtitle': '',
       'time': '4.00 PM - 6.00 PM',
       'details': '',
       'register': true,

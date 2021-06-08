@@ -1,8 +1,8 @@
 <section class="hero is-white is-fullheight" id="home">
-  <!-- Hero head: will stick at the top -->
+ 
   <div class="hero-head"></div>
 
-  <!-- Hero content: will be in the middle -->
+  
   <div class="hero-body hero1">
     <div class="container">
       <div class="columns is-centered is-vcentered">
@@ -29,57 +29,7 @@
     </div>
   </div>
 
-  <!-- Hero footer: will stick at the bottom -->
-  <!-- <div class="hero-foot">
-      <nav class="tabs is-boxed is-fullwidth">
-        <div class="container">
-          <ul>
-            <li class="is-active"><a>Overview</a></li>
-            <li><a>Modifiers</a></li>
-            <li><a>Grid</a></li>
-            <li><a>Elements</a></li>
-            <li><a>Components</a></li>
-            <li><a>Layout</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div> -->
 </section>
-
-<!-- <section class="section is-medium  event-count" >
-  <div class="container">
-    <div class="columns is-vcentered">
-
-
-   <div class="column" >
-  <nav class="level is-mobile">
-    <div class="level-item has-text-centered">
-      <div>
-
-        <p class="title is-size-1 is-size-4-mobile has-text-white ">3+</p>
-        <p class=" is-size-6 is-size-6-mobile">Speakers</p>
-      </div>
-    </div>
-    <div class="level-item has-text-centered">
-      <div>
-
-        <p class="title is-size-1 is-size-4-mobile  has-text-white">11+</p>
-        <p class="is-size-6 is-size-6-mobile">Sponsors</p>
-      </div>
-    </div>
-    <div class="level-item has-text-centered">
-      <div>
-
-        <p class="title is-size-1 is-size-4-mobile  has-text-white">7+</p>
-        <p class="is-size-6 is-size-6-mobile">Events</p>
-      </div>
-    </div>
-  </nav>
-</div>
-</div>
-</div>
-</section>
- -->
 
 <app-about></app-about>
 
@@ -96,7 +46,7 @@
           style="font-size: 3rem"
           ngsReveal
         >
-          <strong>Events Starts On </strong>
+          <strong>Event Starts On </strong>
         </h1>
         <h2 class="subtitle is-size-4 has-text-centered-mobile">
           June 18, 2021
@@ -105,33 +55,31 @@
 
       <div
         class="column"
-        [ngsRevealSet]="{ reset: true }"
-        [ngsInterval]="250"
-        [ngsSelector]="'.level-item'"
+
       >
         <nav class="level is-mobile">
-          <div class="level-item has-text-centered">
+          <div class="level-item has-text-centered" data-aos="flip-up">
             <div>
-              <p class="title is-size-1 is-size-2-mobile">{{ diffInDays }}</p>
-              <p class="heading is-size-6">Days</p>
+              <p class="title is-size-1 is-size-3-mobile">{{ diffInDays }}</p>
+              <p class="is-size-6">Days</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+          <div class="level-item has-text-centered" data-aos="flip-up">
             <div>
-              <p class="title is-size-1 is-size-2-mobile">{{ hour }}</p>
-              <p class="heading is-size-6">Hours</p>
+              <p class="title is-size-1 is-size-3-mobile">{{ hour }}</p>
+              <p class="is-size-6">Hours</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+          <div class="level-item has-text-centered" data-aos="flip-up">
             <div>
-              <p class="title is-size-1 is-size-2-mobile">{{ minutes }}</p>
-              <p class="heading is-size-6">Minutes</p>
+              <p class="title is-size-1 is-size-3-mobile">{{ minutes }}</p>
+              <p class="is-size-6">Minutes</p>
             </div>
           </div>
-          <div class="level-item has-text-centered">
+          <div class="level-item has-text-centered" data-aos="flip-up">
             <div>
-              <p class="title is-size-1 is-size-2-mobile">{{ seconds }}</p>
-              <p class="heading is-size-6">Seconds</p>
+              <p class="title is-size-1 is-size-3-mobile">{{ seconds }}</p>
+              <p class="is-size-6">Seconds</p>
             </div>
           </div>
         </nav>

@@ -122,7 +122,9 @@
           font-weight: 400;
           color: rgb(99, 99, 99);
         }
-        .title {
+        .title-card {
+          font-size: 1.4rem;
+          font-weight: 600;
           padding-top: 1rem;
           span {
             display: block;
@@ -151,7 +153,19 @@
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (max-width: 768px){
+  .program-heading {
+    text-align: center;
+    margin: 1rem 0;
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: black;
+    }
+    p {
+      font-weight: 300;
+    }
+  }
   .cards {
     // flex-direction: column;
     // justify-content: space-evenly;
@@ -162,7 +176,7 @@
     }
     .timeline {
       .card {
-        width: 350px;
+        width: 290px;
         min-height: 120px;
         .container {
           padding: 1rem 1rem;
@@ -170,7 +184,9 @@
             font-weight: 400;
             color: rgb(99, 99, 99);
           }
-          .title {
+          .title-card {
+            font-size: 1.2rem;
+            font-weight: 600;
             padding-top: 1rem;
             span {
               display: block;

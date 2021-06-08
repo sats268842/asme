@@ -11,7 +11,7 @@
       </figure>
  
       <div class="program-heading">
-        <p>#overview</p>
+        <!-- <p>#overview</p> -->
         <h1>Program Schedule</h1>
        </div>
 
@@ -37,7 +37,7 @@
                 <div class="card" data-aos="flip-left" *ngFor="let item of day1">
                   <div class="container">
                     <h6 class="time">{{item.time}}</h6>
-                    <h1 class="title">{{item.title}}
+                    <h1 class="title-card">{{item.title}}
                       <span *ngIf="item.subtitle">{{item.subtitle}}</span>
                     </h1>
                     <!-- <div class="button-register" *ngIf="item.register">
@@ -78,7 +78,7 @@
                 <div class="card" data-aos="flip-left" *ngFor="let item of day2">
                   <div class="container">
                     <h6 class="time">{{item.time}}</h6>
-                    <h1 class="title">{{item.title}}
+                    <h1 class="title-card">{{item.title}}
                       <span *ngIf="item.subtitle">{{item.subtitle}}</span>
                     </h1>
                     <!-- <div class="button-register" *ngIf="item.register">
@@ -128,7 +128,9 @@
                 <div class="card" data-aos="flip-left" *ngFor="let item of day3">
                   <div class="container">
                     <h6 class="time">{{item.time}}</h6>
-                    <h1 class="title">{{item.title}}</h1>
+                    <h1 class="title-card">{{item.title}}
+                      <span *ngIf="item.subtitle">{{item.subtitle}}</span>
+                    </h1>
                     <!-- <div class="button-register" *ngIf="item.register">
                       <button  (click)="eventDetails(item)">
                       Register
