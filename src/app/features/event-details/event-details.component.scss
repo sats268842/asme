@@ -1,25 +1,21 @@
 @import '../../../main-style.scss';
 .event-details{
     min-height: 100vh;
-    background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url('../../../assets/humour\ sapiens\ square.jpg');
+    // background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url('../../../assets/humour\ sapiens\ square.jpg');
     background-size: cover;
     // opacity: 0.8;
+    background: $primary;
     // background-image: repeating-linear-gradient(135deg, rgba(189,189,189,0.1) 0px, rgba(189,189,189,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(8,61,119),rgb(8,61,119));
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     
      
-    .event-container{
-      
-     
-     
+    .event-container{     
         padding-top: 5rem;
-        // margin-bottom: 1rem;
         text-align: center;
         span {
             background: #FF331F;
-            // opacity: 0.8;
             color: white  ;
             padding: 0.5rem 1rem;
           }
@@ -30,7 +26,13 @@
         }
     }
     .event-detail{
-
+      li{
+        padding-top: 1rem;
+      }
+      .high{
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
       color: white;
       margin-top: 4rem;
       .register-button{
@@ -82,13 +84,7 @@
     }
 }
 
-li{
-  padding-top: 1rem;
-}
-.high{
-  font-size: 1.5rem;
-  font-weight: 600;
-}
+
 .main{
   display: block;
   text-align: center;
@@ -118,3 +114,11 @@ li{
     
   
   }
+
+:ng-deep {
+ 
+  } 
+  
+  // .navbar{
+  //   background: $primary !important;
+  // }
