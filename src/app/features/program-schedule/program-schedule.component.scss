@@ -102,7 +102,7 @@
       background-image: repeating-linear-gradient(135deg, rgba(118,118,118, 0.04) 0px, rgba(118,118,118, 0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, rgb(255,255,255),rgb(255,255,255));
       &:hover {
         color: white !important;
-        background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, rgb(255,26,17),rgb(255,26,17));
+        background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, $secondary,$secondary);
         .container {
           .time {
             font-weight: 400;
@@ -113,7 +113,7 @@
           }
         }
         &:nth-child(2n) {
-          background: repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, rgb(6,72,143),rgb(6,72,143));
+          background: repeating-linear-gradient(135deg, rgba(255,255,255,0.04) 0px, rgba(255,255,255,0.04) 2px,transparent 2px, transparent 4px),linear-gradient(0deg, $primary,$primary);
         }
       }
       .container {
