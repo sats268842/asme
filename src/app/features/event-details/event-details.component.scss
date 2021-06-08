@@ -4,7 +4,7 @@
     // background: linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url('../../../assets/humour\ sapiens\ square.jpg');
     background-size: cover;
     // opacity: 0.8;
-    background: $primary;
+    background: #083D77;
     // background-image: repeating-linear-gradient(135deg, rgba(189,189,189,0.1) 0px, rgba(189,189,189,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(8,61,119),rgb(8,61,119));
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@
         border-radius: 4px;
         font-size: 1rem;
         transition: all 0.3s ease-in;
-        font-weight: 600;
+        font-weight: 500;
         cursor: pointer;
         color: white;
         &:disabled{
