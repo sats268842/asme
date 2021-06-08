@@ -10,7 +10,7 @@
     "strict": false,
     "noImplicitReturns": false,
     "noFallthroughCasesInSwitch": false,
-    "experimentalDecorators": false,
+    "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
