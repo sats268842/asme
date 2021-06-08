@@ -38,7 +38,7 @@ export class ProgramScheduleComponent implements OnInit {
   day2 = [
     {
       'title': 'Digital Holmes',
-      'subtitle': '',
+      'subtitle': 'Website Goes Live - The Hunt Begins',
       'time': '9.00 AM',
       'details': '',
       'register': true,
@@ -64,7 +64,7 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': 'Bridge',
-      'subtitle': 'Speakers - Bibin Sagaram, Ronith Stanly',
+      'subtitle': 'Bibin Sagaram and Ronith Stanly',
       'time': '7:00 PM - 8:00 PM',
       'details': '',
       'register': false,
@@ -99,7 +99,7 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': 'Bazinga',
-      'subtitle': '',
+      'subtitle': 'Final Presentation',
       'time': '10.00 AM - 12.00 PM',
       'details': '',
       'register': true,
@@ -107,7 +107,7 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': 'Digital Holmes',
-      'subtitle': '',
+      'subtitle': 'Here it ends',
       'time': '12.00 PM',
       'details': '',
       'register': false,
