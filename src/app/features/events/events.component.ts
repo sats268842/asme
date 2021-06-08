@@ -21,7 +21,10 @@ export class EventsComponent implements OnInit {
 
 
   eventDetails(item) {
-    this.router.navigateByUrl(`/eventdetails/${item.url}`, { state: item });
+    if(item.active){
+      this.router.navigateByUrl(`/eventdetails/${item.url}`, { state: item });
+    }
+    
   }
 
 }
