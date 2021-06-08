@@ -24,8 +24,8 @@ export class ServiceService {
   },
   
   {
-    'title':'Humour Sapien',
-    'url': 'humoursapien',
+    'title':'Humour Sapiens',
+    'url': 'humoursapiens',
     'subtitle': '',
     'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623143611/asme/humour_sapiens_square_ydcgng.jpg',
     'day': '17',
