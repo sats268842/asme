@@ -28,10 +28,10 @@ export class AppComponent implements AfterViewInit, OnInit {
 
 
 
-  constructor( private breakpointObserver: BreakpointObserver) {
+  constructor( ) {
 
    }
-   @HostListener("window:resize", [])
+  
   ngOnInit() {
    
     AOS.init();
