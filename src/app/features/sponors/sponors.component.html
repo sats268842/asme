@@ -12,8 +12,11 @@
   
   
   
-     <div class="column is-3 logo"  data-aos="fade-up" *ngFor="let item of logos"> 
-      <img [src]=item class="image " />
+     <div class="column is-multiline is-3 "  data-aos="fade-up" *ngFor="let item of logos"> 
+       <div class="logo">
+        <img [src]=item class="image " />
+       </div>
+ 
      </div>
   
    
