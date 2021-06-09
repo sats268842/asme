@@ -13,7 +13,7 @@ export class SponorsComponent implements OnInit {
   }
 
   logos=[
-    '../../../assets/SJCET TYPO PNG.png',
+    'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623225051/asme/ASME_SSET_Chapter_holtts.jpg',
     '../../../assets/SJCET TYPO PNG.png',
     '../../../assets/SJCET TYPO PNG.png',
     '../../../assets/SJCET TYPO PNG.png'
