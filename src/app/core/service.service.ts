@@ -44,14 +44,28 @@ export class ServiceService {
     'url': 'bazinga',
     'subtitle': '',
     'short': 'An idea-pitching competition exclusively for budding Technopreneurs to showcase their innovation and technical knowledge and to let the world know your thought product.',
-    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623335118/asme/bazzinga_2_lpxn9a.jpg',
-    'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623335127/asme/bazzinga_1_rxi4px.jpg',
+    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623336753/asme/bazzinga_2-min_scxl0e.jpg',
+    'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623336753/asme/bazzinga_2-min_scxl0e.jpg',
     'day': '20',
     'time': 'June | 10.00 AM - 12.00 PM',
     'details': 'Bazinga is an idea- pitching competition exclusively for budding Technopreneurs who can sell ice to eskimos.\<br><br>\ From conceptualizing and convincing to positioning and marketizing, Bazinga gives you a robust platform to let your ideas have a solemn space it requires.\<br><br>\ \<span class="high">\ Requirements: \</span>\ \<br>\ \<ul>\ \<li>\ • Students may register as a team or as an individual.\</li>\ \<li>\• Involvement of all team members are highly advised during all phases of the competition.\</li>\ \<li>\• The team must possess skills in Engineering and other relevant fields.\</li>\ \<br><br>\ \<span class="high">\ GUIDELINES \</span>\ \<ul>\ \<li>\ •The problem statement will be given to the  participants only after the registration\</li>\ \<li>\• The competition will be conducted in two phases\</li>\ \<li>\• Phase-I is Abstract Submission and Phase-II is Presentation\</li>\ \<li>\• Deadline for Abstract submissions is on 16th of June, 2021 at 8 PM\</li>\ \<li>\• Top ideas from Phase-I will be shortlisted by the Judging panel  \</li>\ \<li>\• Students selected to phase-II must have a detailed PPT presentation on 20th of June, 2021\</li>\ \</ul> ',
     'register': true,
     'active': true
   }  ,
+  {
+    'title': 'CAD BATTLE - Blueprint',
+    'subtitle': '',
+    'url': 'cadbattle',
+    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623336753/asme/bp_1-min_qh1kvy.jpg',
+    'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623336753/asme/bp_2_1_-min_vltbim.jpg',
+    'day': '18',
+    'short': 'A unique engineering designing competition to find out the ingenious designer in you but with a twist !',
+    'time': 'June | 7.00 - 7.30 PM',
+    'details': 'Designing is not a Profession but an Attitude, now it\'s your time to show-off your ATTITUDE in style!\<br><br>\ YUGMA 2021 prestigiously presents before you BLUEPRINT  to challenge you to see who will achieve the impossible!\<br><br>\ Blueprint is a unique engineering designing competition conducted to find out the most ingenious designer among us but with a twist.\<br><br>\ The participants will be given a problem statement and your CAD design must be drawn as a solution to it.\<br><br>\ Yes, you heard that right!\<br><br>\ So, what do you say?\<br><br>\ You think you got what it takes to be YUGMA 2021’s  best designer?\<br><br>\ Are you ready to take up this challenge?\<br><br>\ If yes, BRAVO!… Here you go!\<br><br>\ \<span class="high"> 🚨RULES 🚨 \</span>\ \<br><br>\ 🔅 General\<br><br>\ \<ul>\ \<li>\💡 Participants must refrain from collecting designs from the internet. Any form of plagiarism will lead to the disqualification of the participant\</li>\ \<li>\💡The drawings will be evaluated by a panel of experts and their decision will be final and conclusive\</li>\ \<li>\💡Prizes worth Rs 4000 /-\</li>\ \</ul>\ \<br><br>\ 🔅Design\<br><br>\ \<ul>\ \<li>\💡The design must be an original content created and owned by the participant\</li>\ \<li>\💡Any form of plagiarism will lead to immediate disqualification. \</li>\ \<li>\💡Usage of design elements previously created by the participants are strictly prohibited as they have to be created within the span of the competition. \</li>\ \</ul>\ \<br><br>\ 🔅Time limit:  2-3 hrs \<br><br>\ 🔅Subject:  The problem statement will be provided 1-2 hours before the start of the competition \<br><br>\ 🔅Submission:  The drawings must be submitted as .stl files with proper reasoning and naming.',
+    'register': true,
+    'active': true
+
+  },
   {
     'title': 'G.O.A.T',
     'url': 'goat',
@@ -120,19 +134,7 @@ export class ServiceService {
 
   },
 
-  {
-    'title': 'CAD BATTLE - Blueprint',
-    'subtitle': '',
-    'url': 'cadbattle',
-    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
-    'day': '18',
-    'short': 'A unique engineering designing competition to find out the ingenious designer in you but with a twist !',
-    'time': 'June | 7.00 - 7.30 PM',
-    'details': 'Designing is not a Profession but an Attitude, now it\'s your time to show-off your ATTITUDE in style!\<br><br>\ YUGMA 2021 prestigiously presents before you BLUEPRINT  to challenge you to see who will achieve the impossible!\<br><br>\ Blueprint is a unique engineering designing competition conducted to find out the most ingenious designer among us but with a twist.\<br><br>\ The participants will be given a problem statement and your CAD design must be drawn as a solution to it.\<br><br>\ Yes, you heard that right!\<br><br>\ So, what do you say?\<br><br>\ You think you got what it takes to be YUGMA 2021’s  best designer?\<br><br>\ Are you ready to take up this challenge?\<br><br>\ If yes, BRAVO!… Here you go!\<br><br>\ \<span class="high"> 🚨RULES 🚨 \</span>\ \<br><br>\ 🔅 General\<br><br>\ \<ul>\ \<li>\💡 Participants must refrain from collecting designs from the internet. Any form of plagiarism will lead to the disqualification of the participant\</li>\ \<li>\💡The drawings will be evaluated by a panel of experts and their decision will be final and conclusive\</li>\ \<li>\💡Prizes worth Rs 4000 /-\</li>\ \</ul>\ \<br><br>\ 🔅Design\<br><br>\ \<ul>\ \<li>\💡The design must be an original content created and owned by the participant\</li>\ \<li>\💡Any form of plagiarism will lead to immediate disqualification. \</li>\ \<li>\💡Usage of design elements previously created by the participants are strictly prohibited as they have to be created within the span of the competition. \</li>\ \</ul>\ \<br><br>\ 🔅Time limit:  2-3 hrs \<br><br>\ 🔅Subject:  The problem statement will be provided 1-2 hours before the start of the competition \<br><br>\ 🔅Submission:  The drawings must be submitted as .stl files with proper reasoning and naming.',
-    'register': false,
-    'active': false
 
-  },
 
 
 
