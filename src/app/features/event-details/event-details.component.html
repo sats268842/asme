@@ -21,7 +21,12 @@
                     </div>
                 </div>
                 <p [innerHTML]="item?.details"></p>
+        
+                <br><br>
                 
+<span class="high" *ngIf="item?.pdf">
+    Rules and Regulations : <a [href]="item.pdf"></a>
+    </span>
         <div class="register-button">
             <a
             href="https://www.yepdesk.com/embed/buy-tickets/60c07904c9e77c0001a4c256/private/euc4vg9rki"
