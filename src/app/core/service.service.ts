@@ -40,6 +40,19 @@ export class ServiceService {
 
   },
   {
+    'title': 'Bazinga',
+    'url': 'bazinga',
+    'subtitle': '',
+    'short': 'An idea-pitching competition exclusively for budding Technopreneurs to showcase their innovation and technical knowledge and to let the world know your thought product.',
+    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623335118/asme/bazzinga_2_lpxn9a.jpg',
+    'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623335127/asme/bazzinga_1_rxi4px.jpg',
+    'day': '20',
+    'time': 'June | 10.00 AM - 12.00 PM',
+    'details': 'Bazinga is an idea- pitching competition exclusively for budding Technopreneurs who can sell ice to eskimos.\<br><br>\ From conceptualizing and convincing to positioning and marketizing, Bazinga gives you a robust platform to let your ideas have a solemn space it requires.\<br><br>\ \<span class="high">\ Requirements: \</span>\ \<br>\ \<ul>\ \<li>\ • Students may register as a team or as an individual.\</li>\ \<li>\• Involvement of all team members are highly advised during all phases of the competition.\</li>\ \<li>\• The team must possess skills in Engineering and other relevant fields.\</li>\ \<br><br>\ \<span class="high">\ GUIDELINES \</span>\ \<ul>\ \<li>\ •The problem statement will be given to the  participants only after the registration\</li>\ \<li>\• The competition will be conducted in two phases\</li>\ \<li>\• Phase-I is Abstract Submission and Phase-II is Presentation\</li>\ \<li>\• Deadline for Abstract submissions is on 16th of June, 2021 at 8 PM\</li>\ \<li>\• Top ideas from Phase-I will be shortlisted by the Judging panel  \</li>\ \<li>\• Students selected to phase-II must have a detailed PPT presentation on 20th of June, 2021\</li>\ \</ul> ',
+    'register': true,
+    'active': true
+  }  ,
+  {
     'title': 'G.O.A.T',
     'url': 'goat',
     'subtitle': 'Round-1',
@@ -92,18 +105,7 @@ export class ServiceService {
     'active': false
   },
   
-  {
-    'title': 'Bazinga',
-    'url': 'bazinga',
-    'subtitle': '',
-    'short': 'An idea-pitching competition exclusively for budding Technopreneurs to showcase their innovation and technical knowledge and to let the world know your thought product.',
-    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
-    'day': '20',
-    'time': 'June | 10.00 AM - 12.00 PM',
-    'details': 'Bazinga is an idea- pitching competition exclusively for budding Technopreneurs who can sell ice to eskimos.\<br><br>\ From conceptualizing and convincing to positioning and marketizing, Bazinga gives you a robust platform to let your ideas have a solemn space it requires.\<br><br>\ \<span class="high">\ Requirements: \</span>\ \<br>\ \<ul>\ \<li>\ • Students may register as a team or as an individual.\</li>\ \<li>\• Involvement of all team members are highly advised during all phases of the competition.\</li>\ \<li>\• The team must possess skills in Engineering and other relevant fields.\</li>\ \<br><br>\ \<span class="high">\ GUIDELINES \</span>\ \<ul>\ \<li>\ •The problem statement will be given to the  participants only after the registration\</li>\ \<li>\• The competition will be conducted in two phases\</li>\ \<li>\• Phase-I is Abstract Submission and Phase-II is Presentation\</li>\ \<li>\• Deadline for Abstract submissions is on 16th of June, 2021 at 8 PM\</li>\ \<li>\• Top ideas from Phase-I will be shortlisted by the Judging panel  \</li>\ \<li>\• Students selected to phase-II must have a detailed PPT presentation on 20th of June, 2021\</li>\ \</ul> ',
-    'register': true,
-    'active': false
-  }  ,
+
   {
     'title': 'E - Talk',
     'url': 'e-talk',
