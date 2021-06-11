@@ -67,6 +67,20 @@ export class ServiceService {
     'register': true,
     'active': true
   },
+    
+  {
+    'title': 'Digital Holmes',
+    'subtitle': '',
+    'url': 'digitalholmes',
+    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623390962/asme/DIGITAL_HOMLES_ovuyew.jpg',
+    'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623390962/asme/DIGITAL_HOMLES_ovuyew.jpg',
+    'day': '19',
+    'short': 'An electrifying virtual treasure hunt that takes you through a story as it challenges your thinking skills to the core.',
+    'time': 'June | 9.00 AM',
+    'details': '',
+    'register': true,
+    'active': true
+  },
   {
     'title': 'G.O.A.T',
     'url': 'goat',
@@ -93,19 +107,7 @@ export class ServiceService {
     'active': false
 
   },
-  
-  {
-    'title': 'Digital Holmes',
-    'subtitle': '',
-    'url': 'digitalholmes',
-    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
-    'day': '19',
-    'short': 'An electrifying virtual treasure hunt that takes you through a story as it challenges your thinking skills to the core.',
-    'time': 'June | 9.00 AM',
-    'details': '',
-    'register': true,
-    'active': false
-  },
+
   {
     'title': 'Bridge',
     'url': 'bridge',
