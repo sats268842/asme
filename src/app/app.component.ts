@@ -1,7 +1,6 @@
 import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
 
 import * as AOS from 'aos';
-import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 
 declare var anime: any;
 @Component({

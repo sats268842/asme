@@ -8,8 +8,6 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 
-// import { SwiperModule } from 'angular/src/public-api';
-// import { SwiperModule } from '../../node_modules/swiper/angular/angular/src/public-api;
 
 import {MatChipsModule} from '@angular/material/chips';
 import { NavbarComponent } from './shared/navbar/navbar.component';

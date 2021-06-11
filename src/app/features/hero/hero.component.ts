@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-hero',
@@ -25,10 +26,13 @@ export class HeroComponent implements OnInit {
 
   speakers=15
 
-  constructor() { }
+  constructor(
+    private title: Title
+  ) { }
 
   ngOnInit(): void {
     this.timecount();
+    this.title.setTitle('YUGMA 2021 | ASME Student Sections - Kerala Collective');
   }
 
 
