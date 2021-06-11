@@ -1,0 +1,4 @@
+User-agent: *
+
+
+Sitemap: https://www.yugma2021.in/sitemap.xml

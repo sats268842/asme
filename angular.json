@@ -27,6 +27,7 @@
               "src/favicon.ico",
               "src/service-worker.js",
               "src/sitemap.xml",
+              "src/robots.txt",
               "src/assets"
             ],
             "styles": [
