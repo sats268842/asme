@@ -82,7 +82,7 @@ export class ProgramScheduleComponent implements OnInit {
   day3 = [
     {
       'title': 'PRIDE AND UNPREJUDICED',
-      'subtitle': 'Queer Rhythm',
+      'subtitle': 'Queerhythm',
       'time': '9.00 AM - 9.30 AM',
       'details': '',
       'register': true,
@@ -90,7 +90,7 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': 'SPIRITED SYMPHONY',
-      'subtitle': 'Jim Jacob',
+      'subtitle': 'Jim Jacob (Four Music)',
       'time': '10.00 AM - 10.30 AM',
       'details': '',
       'register': true
