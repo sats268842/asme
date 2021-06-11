@@ -27,7 +27,7 @@
 <span class="high" *ngIf="item?.pdf">
     Rules and Regulations : <a [href]="item.pdf" download>Download</a>
     </span>
-        <div class="register-button">
+        <div class="register-button" *ngIf="!item?.registrationLink">
             <a
             href="https://www.yepdesk.com/embed/buy-tickets/60c07904c9e77c0001a4c256/private/euc4vg9rki"
             rel="noreferrer"
@@ -35,7 +35,19 @@
           >
             <button
             [disabled]="!item?.register"
-            >{{item?.register == true ? 'Register Now' :'Registeration Closed'}}</button>
+            >{{item?.register == true ? 'Register Now' :'Registration Closed'}}</button>
+            </a>
+        </div>
+
+        <div class="register-button" *ngIf="item?.registrationLink">
+            <a
+            [href]="item?.registrationLink"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <button
+            [disabled]="!item?.register"
+            >{{item?.register == true ? 'Register Now' :'Registration Closed'}}</button>
             </a>
         </div>
     
