@@ -102,7 +102,7 @@ export class ServiceService {
       'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623515009/asme/WhatsApp_Image_2021-06-12_at_9.52.50_PM_o29ibe.jpg',
       'day': '19',
       'short': '‘Industry\'s expectation from a recruit’ and ‘Expectations from a budding Researcher’.',
-      'time': 'June | 7:00 PM to 8:00 PM',
+      'time': 'June | 6:30 PM to 7:30 PM',
       'details': 'A huge disparity exists between textbooks and the industry. A similar one exists between what you learn from college and what you would do for research. At times, this can be trying, and overwhelming to adapt to. We have something that will help you navigate through this!\<br><br>\ Join us along with Mr. Bibin Sagaram and Mr. Ronith Stanly as we take you through an informative session called  ‘ BRIDGE ’  on the topics ‘ Industry\'s expectation from a recruit’  and ‘Expectations from a budding Researcher ’ as a part of the technical festival YUGMA 2021! \<br><br>\ Date : 19th June 2021 \<br><br>\ \<span class="high">\ GUIDELINES \</span>\ \<br><br>\ \<ul>\ \<li>\• Google meet link activates at 6:15 pm \</li>\ \<li>\• Talk from Bibin Sagaram till 6:45 pm \</li>\ \<li>\• Talk from Ronith Stanly till 7 pm \</li>\ \<li>\• Q/A session from 7:00 to 7:30 pm \</li>\ \<li>\• Google form link to be posted in the public chat to avail participation information for certificate distribution at the end of the session\</li>\ \</ul>\ \<br><br>\ \<span class="main">\ Grab your seats now! \</span>\ ',
       'register': true,
       'active': true
@@ -114,7 +114,7 @@ export class ServiceService {
       'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623505123/asme/WhatsApp_Image_2021-06-12_at_6.23.25_PM_d6isio.jpg',
       'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623505123/asme/WhatsApp_Image_2021-06-12_at_6.23.28_PM_au8dnt.jpg',
       'day': '18',
-      'time': 'June | 7.00 PM - 8.00 PM',
+      'time': 'June | 7.45 PM - 8.45 PM',
       'short': 'Interactive session with Mr.Maithreyan ',
       'details': "Vanquishing the bogus and bigotry, let us now wake to rationality and liberation.\<br><br>\ Do join us in an interactive talk session with activist and thinker - Maitreyan only on YUGMA 2021.\<br><br>\ Date : Friday 18th of June\<br><br>\ Time : 7:45 PM to 8:45 PM IST\<br><br>\ Venue : Google Meet\<br><br>\ ",
       'register': true,
@@ -140,7 +140,7 @@ export class ServiceService {
       'short': '',
       'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
       'day': '20',
-      'time': 'June | 10.00 AM - 10.30 AM',
+      'time': 'June | 11.00 AM - 12.00 PM',
       'details': '',
       'register': true,
       'active': false
@@ -153,7 +153,7 @@ export class ServiceService {
       'short': '',
       'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
       'day': '20',
-      'time': 'June | 9.00 AM - 9.30 AM',
+      'time': 'June | 2.30 PM - 3.30 PM',
       'details': '',
       'register': true,
       'active': false
@@ -166,8 +166,8 @@ export class ServiceService {
       'url': 'tetalk',
       'short': '',
       'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
-      'day': '20',
-      'time': 'June | 9.00 AM - 9.30 AM',
+      'day': '18',
+      'time': 'June | 7.00 PM - 7.30 PM',
       'details': '',
       'register': true,
       'active': false
