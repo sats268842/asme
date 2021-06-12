@@ -12,7 +12,7 @@ export class ServiceService {
     'title': 'SHESPIRE',
     'url': 'shespire',
     'subtitle': '',
-    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623416488/asme/WhatsApp_Image_2021-06-11_at_6.31.08_PM_awfi7d.jpg',
+    'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623475324/asme/b03f0531-d7ea-41a0-93c5-4e7fa8ca8299_setmx4.jpg',
     'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623416488/asme/WhatsApp_Image_2021-06-11_at_6.31.06_PM_sbd3ey.jpg',
     'day': '13',
     'time': 'June | 6.00 PM - 7.30 PM',
@@ -20,7 +20,8 @@ export class ServiceService {
     'details': 'YUGMA 2021 presents before you ‘SHESPIRE’ - a dream of a platform to shed off your insecurities and sparkle your persona! \<br><br>\  “SHESPIRE” is an exclusive event for women in the field of engineering to have witty yet mature talks, fun-filled tasks, and of course, a vibe gang to hang on over a cup of coffee. \<br><br>\ \<ul>\ \<li>\Date : 13th of June, 2021\</li>\ \<li>\ Time : 6:00pm - 7:30pm IST\</li>\ \<li>\‍Venue : Google Meet \</li>\ \</ul> \<br><br>\ Let this be your space to kick off your inhibitions and to wear your ever-shining armor in style!\<br><br>\ So just don’t let this opportunity slip away!!!!\<br><br>\ Who knows? May this be a life-changing point! \<br><br>\ Now, all we assure you is that, at the end of the day, this session is going to make you leave with a smile on your face and confidence in yourself.\<br><br>\ SHESPIRE - A tribute to the unstoppable woman in you!\<br><br>\ Ps. Limited seats available \<br><br>\ \<span class="main">\ SHESPIRE - A tribute to the unstoppable woman in you! \</span>\ ',
     'register': false,
     'registrationLink': 'https://forms.gle/ooKU5k22jRx1f3mf6',
-    'active': true
+    'active': true,
+    'sold': true
 
   },
   

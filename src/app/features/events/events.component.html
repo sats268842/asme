@@ -19,7 +19,8 @@
         <span>{{item.title}}</span>
         <p class="date">{{item.day}}<sup>th</sup> {{item.time}}</p>
         <p>{{item.short}}</p>
-        <a class="link" (click)="eventDetails(item)">{{item.active? 'More Details->': 'Coming Soon'}}</a>
+        <a *ngIf="!item?.sold" class="link" (click)="eventDetails(item)">{{item.active? 'More Details->': 'Coming Soon'}}</a>
+        <a *ngIf="item?.sold" class="link" >Sold Out</a>
       </div>
   
     </div> 
