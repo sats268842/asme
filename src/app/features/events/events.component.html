@@ -20,7 +20,7 @@
         <p class="date">{{item.day}}<sup>th</sup> {{item.time}}</p>
         <p>{{item.short}}</p>
         <a *ngIf="!item?.sold" class="link" (click)="eventDetails(item)">{{item.active? 'More Details->': 'Coming Soon'}}</a>
-        <a *ngIf="item?.sold" class="link" >Sold Out</a>
+        <a *ngIf="item?.sold" target="_blank" href="https://youtu.be/y1zHhQAqTME" class="link" >Live Now</a>
       </div>
   
     </div> 
