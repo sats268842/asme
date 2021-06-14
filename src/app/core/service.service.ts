@@ -115,14 +115,14 @@ export class ServiceService {
       'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623505123/asme/WhatsApp_Image_2021-06-12_at_6.23.28_PM_au8dnt.jpg',
       'day': '18',
       'time': 'June | 7.45 PM - 8.45 PM',
-      'short': 'Interactive session with Mr.Maithreyan ',
+      'short': 'Interactive session with Maitreyan ',
       'details': "Vanquishing the bogus and bigotry, let us now wake to rationality and liberation.\<br><br>\ Do join us in an interactive talk session with activist and thinker - Maitreyan only on YUGMA 2021.\<br><br>\ Date : Friday 18th of June\<br><br>\ Time : 7:45 PM to 8:45 PM IST\<br><br>\ Venue : Google Meet\<br><br>\ ",
       'register': true,
       'active': true
 
     },
     {
-      'title': 'Meet At Clubhouse',
+      'title': 'When Gen Z meets Dr. Muralee Thummarukudy',
       'url': 'clubhousetalk',
       'subtitle': '',
       'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
