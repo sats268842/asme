@@ -13,7 +13,7 @@ export class SponorsComponent implements OnInit {
   }
 
   logos=[
-    'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623659739/asme/SCMS_1_qrkjvq.png',
+    'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623660852/asme/SCMS_2_nx0gu5.png',
     'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623225052/asme/IMG-20210607-WA0002_w8ljlr.jpg',
     'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623225052/asme/ASME_MACE_Student_Section_logo_vm6jph.png',
     'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623225052/asme/Rajagiri_School_of_Engineering_and_Technology_ui2gvk.png',
