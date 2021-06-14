@@ -130,9 +130,9 @@ export class ServiceService {
       'day': '19',
       'time': 'June | 9:00 PM - 10:00 PM',
       'short': '',
-      'details': "",
+      'details': "Hello Hello Hello !!!!\<br><br>\ We have a special guest for you. YUGMA 2021 hosts a live interactive session with \<b>\Dr. Muralee Thummarukkudy \</b>\, Head - Disasters and Conflicts, UN Environment Programme. \<br><br>\ A Clubhouse room waiting for you as he addresses the new gen and their intriguing questions.\<br><br>\ Do you have a question ?\<br><br>\ Would you like to see him talk ? Well what are you waiting for ?\<br><br>\ ",
       'register': true,
-      'active': false
+      'active': true
     },
     {
       'title': 'Spirited Symphony',
