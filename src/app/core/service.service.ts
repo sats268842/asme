@@ -125,7 +125,8 @@ export class ServiceService {
       'title': 'When Gen Z meets Dr. Muralee Thummarukudy',
       'url': 'clubhousetalk',
       'subtitle': '',
-      'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
+      'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623683275/asme/WhatsApp_Image_2021-06-14_at_8.36.05_PM_qvadtn.jpg',
+      'img1':'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623683275/asme/WhatsApp_Image_2021-06-14_at_8.36.05_PM_qvadtn.jpg',
       'day': '19',
       'time': 'June | 9:00 PM - 10:00 PM',
       'short': '',
@@ -138,12 +139,13 @@ export class ServiceService {
       'subtitle': '',
       'url': 'talksession2',
       'short': '',
-      'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
+      'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623683275/asme/WhatsApp_Image_2021-06-14_at_8.34.45_PM_cnbz8t.jpg',
+      'img1':'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623683275/asme/WhatsApp_Image_2021-06-14_at_8.34.45_PM_cnbz8t.jpg',
       'day': '20',
       'time': 'June | 11.00 AM - 12.00 PM',
-      'details': '',
+      'details': 'Are you a passionate music follower ? \<br><br>\ A wannabe musician, singer, sound engineer ?\<br><br>\ Have questions about the field ? Need advice ?\<br><br>\ Or would you be interested to just interact with such a personality.\<br><br>\ Well YUGMA 2021 gives an opportunity to you for just that.🤩\<br><br>\ \<span class="high">\ SPIRITED SYMPHONY \<br><br>\ Jim Jacob from 4Musics takes the mic to talk about the music industry and his experiences to passionate music lovers out there. Come join us in this exciting talk session about the music forte.',
       'register': true,
-      'active': false
+      'active': true
 
     },
     {
