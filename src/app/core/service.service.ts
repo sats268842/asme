@@ -149,6 +149,20 @@ export class ServiceService {
 
     },
     {
+      'title': 'E-talk',
+      'subtitle': '',
+      'url': 'etalk',
+      'short': '',
+      'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623847130/asme/WhatsApp_Image_2021-06-16_at_5.37.45_PM_fh1qbf.jpg',
+      'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623847130/asme/WhatsApp_Image_2021-06-16_at_5.37.45_PM_fh1qbf.jpg',
+      'day': '18',
+      'time': 'June | 7.00 PM - 7.30 PM',
+      'details': 'E Talk\<br><br>\ They say ‘ What Humour is to technology is what Chandler is to Janice’, but hey ! Have you heard what Vinay Menon says?\<br><br>\ Catch us up live as “carryonmenon” sets the house on wit and fire only on YUGMA 2021 .\<br><br>\ Come share a few laughs and Join us in this epic session.',
+      'register': true,
+      'active': true
+
+    },
+    {
       'title': 'Pride And Unprejudiced',
       'subtitle': '',
       'url': 'talksession1',
@@ -162,19 +176,7 @@ export class ServiceService {
 
     },
 
-    {
-      'title': 'E-talk',
-      'subtitle': '',
-      'url': 'tetalk',
-      'short': '',
-      'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
-      'day': '18',
-      'time': 'June | 7.00 PM - 7.30 PM',
-      'details': '',
-      'register': true,
-      'active': false
-
-    },
+   
   ]
 
   getAllEvents() {
