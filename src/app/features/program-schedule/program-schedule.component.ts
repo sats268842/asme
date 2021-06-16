@@ -20,7 +20,7 @@ export class ProgramScheduleComponent implements OnInit {
     {
       'title': 'Inauguration Ceremony',
       'subtitle': '',
-      'time': '6.30 PM - 7.00 PM',
+      'time': '6.00 PM - 6.45 PM',
       'details': '',
       'register': false,
 
@@ -121,7 +121,7 @@ export class ProgramScheduleComponent implements OnInit {
     },
     {
       'title': 'PRIDE AND UNPREJUDICED',
-      'subtitle': 'Queerhythm',
+      'subtitle': 'Queerythm',
       'time': '2.30 PM - 3.30 PM',
       'details': '',
       'register': true,
@@ -130,7 +130,7 @@ export class ProgramScheduleComponent implements OnInit {
     {
       'title': 'Felicitation',
       'subtitle': '',
-      'time': '4.00 PM - 6.00 PM',
+      'time': '4.30 PM - 5.30 PM',
       'details': '',
       'register': true
     }
