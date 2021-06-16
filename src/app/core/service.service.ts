@@ -167,12 +167,13 @@ export class ServiceService {
       'subtitle': '',
       'url': 'talksession1',
       'short': '',
-      'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623155299/asme/comingsoon_a3kdmk.png',
+      'img': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623859912/asme/WhatsApp_Image_2021-06-16_at_9.40.09_PM_lryj79.jpg',
+      'img1': 'https://res.cloudinary.com/www-santhoshthomas-xyz/image/upload/v1623859912/asme/WhatsApp_Image_2021-06-16_at_9.40.09_PM_lryj79.jpg',
       'day': '20',
       'time': 'June | 2.30 PM - 3.30 PM',
       'details': '',
       'register': true,
-      'active': false
+      'active': true
 
     },
 
