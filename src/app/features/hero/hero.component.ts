@@ -40,7 +40,7 @@ export class HeroComponent implements OnInit {
 
     setInterval(() => {
       this.date1 = new Date();
-      this.date2 = new Date('06/18/2021');
+      this.date2 = new Date('06/17/2021');
       this.Difference_In_Time = this.date2.getTime() - this.date1.getTime();
       // console.log('count')
       this.diffInDays = Math.ceil(this.Difference_In_Time / (1000 * 3600 * 24));
