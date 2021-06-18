@@ -37,20 +37,21 @@ export class HeroComponent implements OnInit {
 
 
   timecount(){
-
+    // let upgradeTime = 1623996097;
+    // let seconds = upgradeTime;
     setInterval(() => {
-      this.date1 = new Date();
-      this.date2 = new Date('06/18/2021');
-      this.Difference_In_Time =(  this.date2.getTime()-this.date1.getTime() );
+      this.date1 = new Date(2021, 5, 18, 18, 0,0,0);
+      this.date2 = new Date();
+      this.Difference_In_Time =( this.date1.getTime()  -this.date2.getTime());
       // console.log('count')
-      this.diffInDays = Math.ceil(this.Difference_In_Time / (1000 * 3600 * 24));
-      this.hour =16-(Math.floor(
+      this.diffInDays = 1-Math.ceil(this.Difference_In_Time/ (1000 * 3600 * 24));
+      this.hour =(Math.floor(
         (this.Difference_In_Time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
       );
-      this.minutes =-(Math.floor(
+      this.minutes =(Math.floor(
         (this.Difference_In_Time % (1000 * 60 * 60)) / (1000 * 60)
       ));
-      this.seconds = -(Math.floor((this.Difference_In_Time % (1000 * 60)) / 1000));
+      this.seconds = (Math.floor((this.Difference_In_Time % (1000 * 60)) / 1000));
       // console.log(this.seconds)
   }, 1000);
   }
