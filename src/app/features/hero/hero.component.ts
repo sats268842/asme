@@ -46,11 +46,12 @@ export class HeroComponent implements OnInit {
         this.hour=0;
         this.minutes=0;
         this.seconds=0;
+        this.diffInDays=0;
       }
       else{
       this.Difference_In_Time =( this.date1.getTime()  -this.date2.getTime());
       // console.log('count')
-      this.diffInDays = 1-Math.ceil(this.Difference_In_Time/ (1000 * 3600 * 24));
+      this.diffInDays = Math.ceil(this.Difference_In_Time/ (1000 * 3600 * 24));
       this.hour =(Math.floor(
         (this.Difference_In_Time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))
       );
