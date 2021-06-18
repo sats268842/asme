@@ -42,6 +42,12 @@ export class HeroComponent implements OnInit {
     setInterval(() => {
       this.date1 = new Date(2021, 5, 18, 18, 0,0,0);
       this.date2 = new Date();
+      if(this.date1 <this.date2){
+        this.hour=0;
+        this.minutes=0;
+        this.seconds=0;
+      }
+      else{
       this.Difference_In_Time =( this.date1.getTime()  -this.date2.getTime());
       // console.log('count')
       this.diffInDays = 1-Math.ceil(this.Difference_In_Time/ (1000 * 3600 * 24));
@@ -53,6 +59,7 @@ export class HeroComponent implements OnInit {
       ));
       this.seconds = (Math.floor((this.Difference_In_Time % (1000 * 60)) / 1000));
       // console.log(this.seconds)
+      }
   }, 1000);
   }
 }
